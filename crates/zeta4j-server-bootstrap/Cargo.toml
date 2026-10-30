@@ -1,0 +1,53 @@
+[package]
+publish = false
+name = "zeta4j-server-bootstrap"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Server bootstrap and runtime assembly for Zeta4j"
+license.workspace = true
+repository.workspace = true
+
+[features]
+default = []
+
+[dependencies]
+zeta4j-cache = { path = "../zeta4j-cache" }
+zeta4j-credential = { path = "../zeta4j-credential" }
+zeta4j-cli-grpc = { path = "../zeta4j-cli-grpc" }
+zeta4j-common = { path = "../zeta4j-common" }
+zeta4j-cypher-executor = { path = "../zeta4j-cypher-executor" }
+zeta4j-graph = { path = "../zeta4j-graph" }
+zeta4j-server = { path = "../zeta4j-server" }
+zeta4j-transport-security = { path = "../zeta4j-transport-security" }
+
+axum.workspace = true
+axum-server.workspace = true
+async-trait.workspace = true
+async-stream.workspace = true
+chrono.workspace = true
+dirs.workspace = true
+hex.workspace = true
+log.workspace = true
+log4rs.workspace = true
+libc.workspace = true
+rustls.workspace = true
+redb.workspace = true
+secrecy.workspace = true
+serde.workspace = true
+sha2.workspace = true
+tokio.workspace = true
+tokio-rustls.workspace = true
+tokio-util.workspace = true
+tonic.workspace = true
+toml.workspace = true
+thiserror.workspace = true
+time.workspace = true
+
+[dev-dependencies]
+rcgen.workspace = true
+ring.workspace = true
+tempfile.workspace = true
+
+[lints]
+workspace = true

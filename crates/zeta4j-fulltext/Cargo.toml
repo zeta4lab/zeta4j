@@ -1,0 +1,38 @@
+[package]
+publish = false
+name = "zeta4j-fulltext"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Tantivy-based full-text search engine for Zeta4j"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+# Internal crates
+zeta4j-common = { path = "../zeta4j-common" }
+
+# Tantivy core
+tantivy.workspace = true
+
+# Language detection
+whatlang.workspace = true
+
+# Text highlighting
+regex.workspace = true
+
+# Common dependencies
+thiserror.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+parking_lot.workspace = true
+tracing.workspace = true
+redb.workspace = true
+sha2.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
+tokio.workspace = true
+
+[lints]
+workspace = true

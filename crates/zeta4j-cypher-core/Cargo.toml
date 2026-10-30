@@ -1,0 +1,65 @@
+# =============================================================================
+# Zeta4j Cypher Core - Cypher Query Language Parser and Core Components
+# =============================================================================
+
+[package]
+publish = false
+name = "zeta4j-cypher-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Cypher query language parser and core components for Zeta4j"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+# Zeta4j dependencies
+zeta4j-common = { path = "../zeta4j-common" }
+zeta4j-graph = { path = "../zeta4j-graph" }
+zeta4j-cache = { path = "../zeta4j-cache" }
+
+# Async runtime
+tokio.workspace = true
+tokio-stream.workspace = true
+futures.workspace = true
+async-trait.workspace = true
+async-recursion.workspace = true
+
+# Serialization
+serde.workspace = true
+serde_json.workspace = true
+
+# Error handling
+thiserror.workspace = true
+anyhow.workspace = true
+
+# Parser
+nom.workspace = true
+regex.workspace = true
+
+# Data structures
+indexmap.workspace = true
+dashmap.workspace = true
+lru.workspace = true
+parking_lot.workspace = true
+ordered-float.workspace = true
+
+# Utilities
+uuid.workspace = true
+chrono.workspace = true
+rand.workspace = true
+rayon.workspace = true
+
+# Logging
+tracing.workspace = true
+
+# Graph algorithms
+petgraph.workspace = true
+
+[dev-dependencies]
+tokio-test.workspace = true
+test-case.workspace = true
+tempfile.workspace = true
+
+[lints]
+workspace = true

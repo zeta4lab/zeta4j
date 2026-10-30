@@ -1,0 +1,175 @@
+# =============================================================================
+# Zeta4j Server Crate (Phase 2)
+# =============================================================================
+#
+# Bolt/HTTP 서버, CLI, 드라이버, 보안, 모니터링 모듈
+
+[package]
+publish = false
+name = "zeta4j-server"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Zeta4j Server: Bolt/HTTP protocol server with auth and monitoring"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+# =============================================================================
+# 내부 크레이트
+# =============================================================================
+zeta4j-common = { path = "../zeta4j-common" }
+zeta4j-credential = { path = "../zeta4j-credential" }
+zeta4j-bolt-protocol = { path = "../zeta4j-bolt-protocol" }
+zeta4j-graph = { path = "../zeta4j-graph" }
+zeta4j-cypher-executor = { path = "../zeta4j-cypher-executor" }
+zeta4j-fulltext = { path = "../zeta4j-fulltext" }
+zeta4j-vector = { path = "../zeta4j-vector" }
+zeta4j-transport-security = { path = "../zeta4j-transport-security" }
+zeta4j-cache = { path = "../zeta4j-cache" }
+
+# =============================================================================
+# 비동기 런타임
+# =============================================================================
+tokio.workspace = true
+tokio-util.workspace = true
+tokio-stream.workspace = true
+futures.workspace = true
+async-trait.workspace = true
+async-recursion.workspace = true
+pin-project-lite.workspace = true
+
+# =============================================================================
+# 직렬화/역직렬화
+# =============================================================================
+serde.workspace = true
+serde_json.workspace = true
+zeta4j-codec.workspace = true
+toml.workspace = true
+
+# =============================================================================
+# 에러 처리
+# =============================================================================
+thiserror.workspace = true
+anyhow.workspace = true
+
+# =============================================================================
+# 데이터 구조
+# =============================================================================
+indexmap.workspace = true
+dashmap.workspace = true
+lru.workspace = true
+parking_lot.workspace = true
+
+# =============================================================================
+# 유틸리티
+# =============================================================================
+uuid.workspace = true
+chrono.workspace = true
+rand.workspace = true
+byteorder.workspace = true
+bytes.workspace = true
+dirs.workspace = true
+num_cpus.workspace = true
+rayon.workspace = true
+
+# =============================================================================
+# 압축
+# =============================================================================
+flate2.workspace = true
+lz4.workspace = true
+lz4_flex.workspace = true
+crc32fast.workspace = true
+
+# =============================================================================
+# 암호화/보안
+# =============================================================================
+aes-gcm.workspace = true
+argon2.workspace = true
+ring.workspace = true
+sha2.workspace = true
+hex.workspace = true
+secrecy.workspace = true
+zeroize.workspace = true
+base64.workspace = true
+
+# =============================================================================
+# 로깅
+# =============================================================================
+tracing.workspace = true
+tracing-subscriber.workspace = true
+tracing-log.workspace = true
+log.workspace = true
+
+# =============================================================================
+# TLS/SSL
+# =============================================================================
+tokio-rustls.workspace = true
+rustls.workspace = true
+webpki-roots.workspace = true
+x509-parser.workspace = true
+
+# =============================================================================
+# HTTP 서버
+# =============================================================================
+axum.workspace = true
+axum-server.workspace = true
+tower.workspace = true
+tower-http.workspace = true
+http.workspace = true
+http-body-util.workspace = true
+mime.workspace = true
+
+# =============================================================================
+# HTTP 클라이언트
+# =============================================================================
+reqwest.workspace = true
+
+# =============================================================================
+# 모니터링
+# =============================================================================
+prometheus.workspace = true
+sysinfo.workspace = true
+
+# =============================================================================
+# 스토리지
+# =============================================================================
+memmap2.workspace = true
+notify.workspace = true
+redb.workspace = true
+
+# =============================================================================
+# 그래프
+# =============================================================================
+csv.workspace = true
+
+# =============================================================================
+# 추가 의존성
+# =============================================================================
+regex.workspace = true
+bitflags.workspace = true
+ordered-float.workspace = true
+petgraph.workspace = true
+libc.workspace = true
+
+# =============================================================================
+# gRPC
+# =============================================================================
+tonic.workspace = true
+zeta4j-cli-grpc = { path = "../zeta4j-cli-grpc" }
+
+# 옵션 (빌드 정보)
+rustc_version = { version = "0.4", optional = true }
+
+[dev-dependencies]
+tokio-test.workspace = true
+test-case.workspace = true
+tempfile.workspace = true
+
+[features]
+default = []
+alert-http = []
+rustc-version = ["rustc_version"]
+
+[lints]
+workspace = true

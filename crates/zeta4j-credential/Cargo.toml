@@ -1,0 +1,28 @@
+[package]
+publish = false
+name = "zeta4j-credential"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Protocol-independent credential lifecycle and validation"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+argon2.workspace = true
+chrono.workspace = true
+rand.workspace = true
+secrecy.workspace = true
+serde.workspace = true
+sha2.workspace = true
+subtle.workspace = true
+thiserror.workspace = true
+uuid.workspace = true
+zeroize.workspace = true
+
+[dev-dependencies]
+zeta4j-codec.workspace = true
+serde_json.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,15 @@
+/target/
+/fuzz/target/
+/fuzz/artifacts/
+**/*.rs.bk
+
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+*.log
+*.tmp
+*.swp
+.env
+.env.*

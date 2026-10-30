@@ -1,0 +1,39 @@
+# =============================================================================
+# Zeta4j CLI gRPC Protocol
+# =============================================================================
+#
+# CLI용 gRPC 서비스 정의 및 생성된 코드
+# Standard 이상 에디션에서 사용
+
+[package]
+publish = false
+name = "zeta4j-cli-grpc"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Zeta4j CLI gRPC Protocol Definitions"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+tonic.workspace = true
+tonic-prost.workspace = true
+prost.workspace = true
+thiserror.workspace = true
+futures.workspace = true
+tracing.workspace = true
+dirs.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+reqwest.workspace = true
+zeta4j-common = { path = "../zeta4j-common" }
+zeta4j-transport-security = { path = "../zeta4j-transport-security" }
+
+[build-dependencies]
+tonic-prost-build.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,15 @@
+[package]
+publish = false
+name = "zeta4j-bolt-protocol"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Shared Bolt message and PackStream protocol types"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+bytes.workspace = true
+
+[lints]
+workspace = true

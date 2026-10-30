@@ -1,0 +1,316 @@
+# =============================================================================
+# Zeta4j Cargo Workspace
+# =============================================================================
+
+[workspace]
+resolver = "2"
+members = [
+    # Canonical bounded binary serialization contract
+    "crates/zeta4j-codec",
+    # Common types and traits
+    "crates/zeta4j-common",
+    # Protocol-independent credential lifecycle and validation
+    "crates/zeta4j-credential",
+    # Cross-protocol TLS, trust and workload identity
+    "crates/zeta4j-transport-security",
+    # Graph engine library
+    "crates/zeta4j-graph",
+    # Cypher core components (parser, AST, planner)
+    "crates/zeta4j-cypher-core",
+    # Production Cypher executor (GraphEngine-based)
+    "crates/zeta4j-cypher-executor",
+    # Tantivy-based fulltext search
+    "crates/zeta4j-fulltext",
+    # Two-tier cache (L1 moka + L2 redb)
+    "crates/zeta4j-cache",
+    # HTTP/Bolt server
+    "crates/zeta4j-server",
+    # Shared Bolt wire protocol
+    "crates/zeta4j-bolt-protocol",
+    # Edition-neutral Bolt client and shell
+    "crates/zeta4j-bolt-client",
+    # Shared server process lifecycle primitives
+    "crates/zeta4j-server-lifecycle",
+    # Shared server-only bootstrap and runtime assembly
+    "crates/zeta4j-server-bootstrap",
+    # Server binary (zeta4jd)
+    "crates/zeta4j-server-bin",
+    # Vector index
+    "crates/zeta4j-vector",
+    # CLI common library
+    "crates/zeta4j-cli",
+    # CLI gRPC Protocol
+    "crates/zeta4j-cli-grpc",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["Kangyou Choi <zeta4lab@gmail.com>"]
+description = "A high-performance graph database with openCypher support"
+license = "Apache-2.0"
+repository = "https://github.com/zeta4lab/zeta4j"
+rust-version = "1.99"
+
+[workspace.dependencies]
+# =============================================================================
+# 비동기 런타임
+# =============================================================================
+tokio = { version = "1.36", features = ["full", "macros", "rt-multi-thread"] }
+tokio-util = { version = "0.7", features = ["io", "codec"] }
+tokio-stream = "0.1"
+futures = "0.3"
+async-trait = "0.1"
+async-recursion = "1.1"
+async-stream = "0.3"
+pin-project-lite = "0.2"
+
+# =============================================================================
+# 직렬화/역직렬화
+# =============================================================================
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+schemars = "1.2"
+postcard = { version = "1.1.3", default-features = false, features = ["use-std"] }
+zeta4j-codec = { path = "crates/zeta4j-codec" }
+toml = "0.8"
+toml_edit = "0.22"
+
+# =============================================================================
+# 에러 처리
+# =============================================================================
+thiserror = "2.0.12"
+anyhow = "1.0.104"
+
+# =============================================================================
+# 파서 관련
+# =============================================================================
+nom = "7.1"
+regex = "1.10"
+
+# =============================================================================
+# 데이터 구조
+# =============================================================================
+indexmap = { version = "2.0", features = ["serde"] }
+dashmap = "6.1"
+lru = "0.18.2"
+parking_lot = { version = "0.12", features = ["arc_lock"] }
+ordered-float = "4.2"
+
+# =============================================================================
+# 유틸리티
+# =============================================================================
+uuid = { version = "1.7", features = ["v4", "v7", "serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+rand = "0.9"
+rand_chacha = "0.9"
+byteorder = "1.5"
+bytemuck = { version = "1.25.2", features = ["derive", "extern_crate_alloc"] }
+bytes = "1.5"
+bitflags = "2.6"
+tempfile = "3.19.1"
+dirs = "5.0"
+num_cpus = "1.16"
+rayon = "1.10"
+libc = "0.2"
+
+# =============================================================================
+# 압축/체크섬
+# =============================================================================
+flate2 = "1.1.0"
+lz4 = "1.28"
+lz4_flex = "0.11"
+zstd = "0.13"
+crc32fast = "1.4"
+xxhash-rust = { version = "0.8", features = ["xxh3"] }
+
+# =============================================================================
+# 암호화/보안
+# =============================================================================
+aes-gcm = "0.10"
+argon2 = "0.5"
+ring = "0.17"
+base64 = "0.22"
+secrecy = { version = "0.10", features = ["serde"] }
+zeroize = "1.8"
+subtle = "2.6"
+
+# =============================================================================
+# 로깅
+# =============================================================================
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "chrono"] }
+tracing-log = "0.2"
+log = "0.4"
+log4rs = { version = "1.3", default-features = false, features = ["all_components", "config_parsing", "json_format", "toml_format", "gzip", "background_rotation"] }
+
+# =============================================================================
+# TLS/SSL
+# =============================================================================
+tokio-rustls = "0.26"
+rustls = { version = "0.23", features = ["ring"] }
+rustls-pki-types = "1.15.1"
+webpki-roots = "0.26"
+x509-parser = "0.16"
+rcgen = "0.14"
+
+# =============================================================================
+# HTTP 서버
+# =============================================================================
+axum = { version = "0.8", features = ["macros"] }
+axum-server = { version = "0.8", features = ["tls-rustls"] }
+tower = "0.5"
+tower-http = { version = "0.6", features = ["cors", "compression-gzip", "compression-br", "trace", "timeout", "request-id", "util"] }
+http = "1.2"
+hyper-util = { version = "0.1", features = ["tokio"] }
+http-body-util = "0.1"
+mime = "0.3"
+
+# =============================================================================
+# HTTP 클라이언트
+# =============================================================================
+reqwest = { version = "0.12", default-features = false, features = ["json", "blocking", "rustls-tls"] }
+
+# =============================================================================
+# gRPC
+# =============================================================================
+tonic = { version = "0.14", features = ["tls-ring", "tls-native-roots", "transport", "channel"] }
+tonic-build = "0.14"
+tonic-prost = "0.14"
+tonic-prost-build = "0.14"
+
+# =============================================================================
+# Kubernetes controller
+# =============================================================================
+kube = { version = "4.2", features = ["client", "derive", "runtime", "rustls-tls", "ring"] }
+k8s-openapi = { version = "0.28", features = ["latest", "schemars"] }
+prost = "0.14"
+
+# =============================================================================
+# 모니터링
+# =============================================================================
+prometheus = "0.14"
+sysinfo = "0.32"
+
+# =============================================================================
+# CLI
+# =============================================================================
+clap = { version = "4.4", features = ["derive", "env"] }
+clap_complete = "4.4"
+rustyline = { version = "14.0", features = ["with-file-history", "derive"] }
+rpassword = "7.3"
+
+# =============================================================================
+# 파일 시스템
+# =============================================================================
+fs4 = "0.8"
+
+# =============================================================================
+# 캐시
+# =============================================================================
+moka = { version = "0.12", features = ["sync"] }
+redb = "2.2"
+memmap2 = "0.9.11"
+notify = "8.2.0"
+
+# =============================================================================
+# 전문검색
+# =============================================================================
+tantivy = "0.25"
+whatlang = "0.16"
+
+# =============================================================================
+# 그래프
+# =============================================================================
+petgraph = "0.6"
+csv = "1.3"
+
+# =============================================================================
+# 추가 유틸리티
+# =============================================================================
+walkdir = "2.5"
+glob = "0.3"
+pdf-extract = "0.8"
+lopdf = "0.35"
+git2 = { version = "0.21.0", features = ["cred", "https", "ssh"] }
+openssl = { version = "0.10", features = ["vendored"] }
+aws-sdk-s3 = { version = "1.140.0", default-features = false, features = ["behavior-version-latest", "default-https-client", "http-1x", "rt-tokio", "sigv4a"] }
+aws-config = { version = "1.10.1", default-features = false, features = ["behavior-version-latest", "credentials-process", "default-https-client", "rt-tokio", "sso"] }
+cron = "0.12"
+hex = "0.4"
+url = "2.5"
+humantime = "2.1"
+sha2 = "0.10"
+time = { version = "0.3.47", features = ["macros", "parsing"] }
+tiktoken-rs = "0.6"
+serde-saphyr = "1.3"
+quick-xml = { version = "0.41.0", features = ["serialize"] }
+
+# =============================================================================
+# ML/Inference (Built-in Embedding)
+# =============================================================================
+ort = { version = "2.0.0-rc.9", default-features = false, features = ["std", "ndarray", "download-binaries", "copy-dylibs", "tls-native"] }
+tokenizers = { version = "0.21", default-features = false, features = ["progressbar", "fancy-regex"] }
+hf-hub = { version = "0.4", default-features = false, features = ["ureq"] }
+ndarray = "0.17"
+
+# =============================================================================
+# 테스트
+# =============================================================================
+tokio-test = "0.4"
+test-case = "3.3"
+
+# =============================================================================
+# 프로파일 설정 (모든 워크스페이스 멤버에 적용)
+# =============================================================================
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "unwind"
+strip = "symbols"
+
+[profile.dev]
+opt-level = 0
+debug = true
+
+# =============================================================================
+# Workspace Lints (v1.4.0)
+# =============================================================================
+
+[workspace.lints.rust]
+# 필수 경고
+unsafe_code = "warn"
+unused_must_use = "deny"
+unused_imports = "warn"
+dead_code = "warn"
+# 레거시 코드 삭제 원칙: deprecated 어노테이션 자체를 금지
+deprecated = "deny"
+
+[workspace.lints.clippy]
+# 린트 그룹 (낮은 우선순위로 설정)
+all = { level = "deny", priority = -1 }
+correctness = { level = "deny", priority = -1 }
+suspicious = { level = "deny", priority = -1 }
+complexity = { level = "warn", priority = -1 }
+perf = { level = "warn", priority = -1 }
+style = { level = "warn", priority = -1 }
+# Rust 1.99 lints that fire on macro-generated code (tonic, thiserror)
+double_must_use = "allow"
+redundant_field_names = "allow"
+
+# 코딩 원칙 강제
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+todo = "deny"
+unimplemented = "deny"
+dbg_macro = "deny"
+
+# 비활성화 (너무 엄격하거나 프로젝트에 부적합)
+too_many_arguments = "allow"
+type_complexity = "allow"
+module_name_repetitions = "allow"
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"

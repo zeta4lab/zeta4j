@@ -1,0 +1,324 @@
+syntax = "proto3";
+package zeta4j.admin;
+
+// =============================================================================
+// Admin Service
+// =============================================================================
+
+service AdminService {
+    // Database Management
+    rpc ListDatabases(Empty) returns (DatabaseListResponse);
+    rpc CreateDatabase(CreateDatabaseRequest) returns (StatusResponse);
+    rpc DropDatabase(DropDatabaseRequest) returns (StatusResponse);
+    rpc GetDatabaseStatus(DatabaseRequest) returns (DatabaseStatusResponse);
+    rpc StartDatabase(DatabaseRequest) returns (StatusResponse);
+    rpc StopDatabase(DatabaseRequest) returns (StatusResponse);
+
+    // Index Management
+    rpc DropFulltextIndex(DropIndexRequest) returns (StatusResponse);
+
+    // Backup/Restore
+    rpc Backup(BackupRequest) returns (stream BackupProgress);
+    rpc Restore(stream RestoreChunk) returns (RestoreResponse);
+
+    // User Management
+    rpc ListUsers(Empty) returns (UserListResponse);
+    rpc CreateUser(CreateUserRequest) returns (StatusResponse);
+    rpc DeleteUser(DeleteUserRequest) returns (StatusResponse);
+    rpc SetInitialPassword(SetPasswordRequest) returns (StatusResponse);
+
+    // Credential Management
+    rpc ListApiKeys(Empty) returns (ApiKeyListResponse);
+    rpc CreateApiKey(CreateApiKeyRequest) returns (IssuedApiKeyResponse);
+    rpc RotateApiKey(RotateApiKeyRequest) returns (IssuedApiKeyResponse);
+    rpc RevokeApiKey(RevokeApiKeyRequest) returns (ApiKeyInfo);
+    rpc ListCredentialSessions(Empty) returns (CredentialSessionListResponse);
+    rpc RevokeCredentialSession(RevokeCredentialSessionRequest) returns (StatusResponse);
+    rpc ListSigningKeys(Empty) returns (SigningKeyListResponse);
+    rpc CompromiseSigningKey(CompromiseSigningKeyRequest) returns (StatusResponse);
+
+
+    // System
+    rpc GetSystemStatus(Empty) returns (SystemStatusResponse);
+    rpc GetConfig(Empty) returns (ConfigResponse);
+    rpc GetVersion(Empty) returns (VersionResponse);
+
+    // Import/Export (streaming)
+    rpc Import(stream ImportChunk) returns (ImportResponse);
+    rpc Export(ExportRequest) returns (stream ExportChunk);
+}
+
+// =============================================================================
+// Common Types
+// =============================================================================
+
+message Empty {}
+
+message StatusResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+// =============================================================================
+// Database Management
+// =============================================================================
+
+message DatabaseInfo {
+    string name = 1;
+    string status = 2;          // "online", "offline", "starting", "stopping"
+    uint64 node_count = 3;
+    uint64 edge_count = 4;
+    uint64 size_bytes = 5;
+    string created_at = 6;
+    string updated_at = 7;
+    bool has_fulltext_index = 8;
+}
+
+message DatabaseListResponse {
+    repeated DatabaseInfo databases = 1;
+}
+
+message CreateDatabaseRequest {
+    string name = 1;
+    optional string description = 2;
+}
+
+message DropDatabaseRequest {
+    string name = 1;
+    bool force = 2;
+}
+
+message DropIndexRequest {
+    string name = 1;
+    string database = 2;
+}
+
+message DatabaseRequest {
+    string name = 1;
+}
+
+message DatabaseStatusResponse {
+    DatabaseInfo database = 1;
+    string storage_path = 2;
+    uint64 wal_size = 3;
+    uint32 active_transactions = 4;
+    uint64 memory_usage_bytes = 5;
+}
+
+// =============================================================================
+// Backup/Restore
+// =============================================================================
+
+message BackupRequest {
+    string database = 1;
+}
+
+message BackupProgress {
+    string job_id = 1;
+    string status = 2;          // "in_progress", "completed", "failed"
+    float progress_percent = 3;
+    uint64 nodes_dumped = 4;
+    uint64 edges_dumped = 5;
+    uint64 total_nodes = 6;
+    uint64 total_edges = 7;
+    optional bytes data_chunk = 8;
+    optional string message = 9;
+}
+
+message RestoreChunk {
+    string database = 1;
+    bytes data = 2;
+    bool is_last = 3;
+}
+
+message RestoreResponse {
+    bool success = 1;
+    string message = 2;
+    uint64 nodes_loaded = 3;
+    uint64 edges_loaded = 4;
+    uint64 duration_ms = 5;
+}
+
+// =============================================================================
+// User Management
+// =============================================================================
+
+message UserInfo {
+    string username = 1;
+    string status = 3;          // "active", "disabled", "password_expired"
+    string created_at = 4;
+    optional string last_login = 5;
+}
+
+message UserListResponse {
+    repeated UserInfo users = 1;
+}
+
+message CreateUserRequest {
+    string username = 1;
+    string password = 2;
+}
+
+message DeleteUserRequest {
+    string username = 1;
+}
+
+message SetPasswordRequest {
+    string username = 1;
+    string password = 2;
+    bool require_change = 3;
+}
+
+// =============================================================================
+// Credential Management
+// =============================================================================
+
+message ApiKeyInfo {
+    string id = 1;
+    string subject_id = 2;
+    string name = 3;
+    string audience = 4;
+    repeated string scopes = 5;
+    int64 created_at = 6;
+    int64 not_before = 7;
+    int64 expires_at = 8;
+    uint64 version = 9;
+    string status = 10;
+    optional int64 overlap_until = 11;
+}
+
+message ApiKeyListResponse {
+    repeated ApiKeyInfo api_keys = 1;
+}
+
+message CreateApiKeyRequest {
+    string name = 1;
+    string audience = 3;
+    repeated string scopes = 4;
+    int64 expires_at = 5;
+}
+
+message RotateApiKeyRequest {
+    string id = 1;
+    int64 overlap_until = 2;
+    int64 expires_at = 3;
+}
+
+message RevokeApiKeyRequest {
+    string id = 1;
+}
+
+message IssuedApiKeyResponse {
+    ApiKeyInfo api_key = 1;
+    string secret = 2;
+}
+
+message CredentialSessionInfo {
+    string id = 1;
+    string subject_id = 2;
+    string credential_kind = 3;
+    int64 created_at = 4;
+    int64 last_refreshed_at = 5;
+    int64 absolute_expires_at = 6;
+    int64 idle_expires_at = 7;
+    uint64 security_generation = 8;
+    uint64 key_version = 9;
+    string family_id = 10;
+    string status = 11;
+}
+
+message CredentialSessionListResponse {
+    repeated CredentialSessionInfo sessions = 1;
+}
+
+message RevokeCredentialSessionRequest {
+    string id = 1;
+}
+
+message SigningKeyInfo {
+    uint64 version = 1;
+    string key_id = 2;
+    string status = 3;
+    int64 prepared_at = 4;
+    optional int64 activated_at = 5;
+    optional int64 verify_until = 6;
+}
+
+message SigningKeyListResponse {
+    repeated SigningKeyInfo signing_keys = 1;
+}
+
+message CompromiseSigningKeyRequest {
+    uint64 version = 1;
+}
+
+// =============================================================================
+// System
+// =============================================================================
+
+message SystemStatusResponse {
+    string edition = 1;
+    string version = 2;
+    string status = 3;          // "running", "starting", "stopping", "degraded"
+    uint32 uptime_seconds = 4;
+    uint64 memory_used_bytes = 5;
+    uint64 memory_total_bytes = 6;
+    uint32 active_connections = 7;
+    uint32 active_transactions = 8;
+    repeated ServiceStatus services = 9;
+}
+
+message ServiceStatus {
+    string name = 1;
+    string status = 2;          // "running", "stopped", "error"
+    optional string message = 3;
+}
+
+message ConfigResponse {
+    string format = 1;          // "toml", "json"
+    string content = 2;
+}
+
+message VersionResponse {
+    string version = 1;
+    string edition = 2;
+    string commit_hash = 3;
+    string build_date = 4;
+    string rust_version = 5;
+}
+
+// =============================================================================
+// Import/Export
+// =============================================================================
+
+message ImportChunk {
+    string format = 1;          // "csv", "json", "graphml"
+    string data_type = 2;       // "nodes", "edges"
+    optional string label = 3;
+    bytes data = 4;
+    bool is_last = 5;
+    string delimiter = 6;
+}
+
+message ImportResponse {
+    bool success = 1;
+    string message = 2;
+    uint64 records_imported = 3;
+    uint64 records_skipped = 4;
+    uint64 errors = 5;
+    uint64 duration_ms = 6;
+}
+
+message ExportRequest {
+    string format = 1;          // "csv", "json", "graphml"
+    string data_type = 2;       // "nodes", "edges"
+    optional string label = 3;
+    optional string delimiter = 4;
+}
+
+message ExportChunk {
+    bytes data = 1;
+    uint64 records_exported = 2;
+    bool is_last = 3;
+    optional string message = 4;
+}

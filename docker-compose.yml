@@ -1,0 +1,19 @@
+# Single Zeta4j server.
+#   docker build -f docker/zeta4j.Dockerfile -t zeta4j .
+#   ZETA4J_BOOTSTRAP_PASSWORD='<12+ chars>' docker compose up -d
+services:
+  zeta4j:
+    image: "${ZETA4J_IMAGE:-zeta4j}"
+    environment:
+      ZETA4J_BOOTSTRAP_USERNAME: admin
+      ZETA4J_BOOTSTRAP_PASSWORD: "${ZETA4J_BOOTSTRAP_PASSWORD:?set the initial admin password}"
+    volumes:
+      - zeta4j-data:/var/lib/zeta4j
+    ports:
+      - "9044:9044"
+      - "9045:9045"
+      - "9046:9046"
+    restart: unless-stopped
+
+volumes:
+  zeta4j-data:

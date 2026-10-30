@@ -1,0 +1,21 @@
+[package]
+publish = false
+name = "zeta4j-server-lifecycle"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Shared Zeta4j server process lifecycle, health, and system utilities"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+chrono.workspace = true
+dirs.workspace = true
+fs4.workspace = true
+libc.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,24 @@
+[package]
+publish = false
+name = "zeta4j-vector"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Vector storage and search for Zeta4j graph database"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+zeta4j-common = { path = "../zeta4j-common" }
+
+# 에러 처리
+thiserror.workspace = true
+
+# 직렬화
+serde.workspace = true
+
+# 데이터 구조
+ordered-float.workspace = true
+
+[lints]
+workspace = true

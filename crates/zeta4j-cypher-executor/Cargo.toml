@@ -1,0 +1,64 @@
+# =============================================================================
+# Zeta4j Cypher Executor - GraphEngine-based Query Executor
+# =============================================================================
+
+[package]
+publish = false
+name = "zeta4j-cypher-executor"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "GraphEngine-based Cypher query executor for Zeta4j"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+# Zeta4j dependencies
+zeta4j-common = { path = "../zeta4j-common" }
+zeta4j-graph = { path = "../zeta4j-graph" }
+zeta4j-cypher-core = { path = "../zeta4j-cypher-core" }
+zeta4j-cache = { path = "../zeta4j-cache" }
+
+# Async runtime
+tokio.workspace = true
+tokio-stream.workspace = true
+futures.workspace = true
+async-trait.workspace = true
+async-recursion.workspace = true
+
+# Serialization
+serde.workspace = true
+serde_json.workspace = true
+
+# Error handling
+thiserror.workspace = true
+anyhow.workspace = true
+
+# Data structures
+indexmap.workspace = true
+dashmap.workspace = true
+parking_lot.workspace = true
+ordered-float.workspace = true
+
+# Utilities
+uuid.workspace = true
+chrono.workspace = true
+rand.workspace = true
+rayon.workspace = true
+
+# Logging
+tracing.workspace = true
+
+# Graph algorithms
+petgraph.workspace = true
+
+# Regex (for executor modules)
+regex.workspace = true
+
+[dev-dependencies]
+tokio-test.workspace = true
+test-case.workspace = true
+tempfile.workspace = true
+
+[lints]
+workspace = true

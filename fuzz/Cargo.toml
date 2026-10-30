@@ -1,0 +1,31 @@
+[package]
+name = "zeta4j-fuzz"
+version = "0.0.0"
+publish = false
+edition = "2024"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+hex = "0.4"
+libfuzzer-sys = "0.4"
+zeta4j-bolt-protocol = { path = "../crates/zeta4j-bolt-protocol" }
+zeta4j-cypher-core = { path = "../crates/zeta4j-cypher-core" }
+
+[[bin]]
+name = "cypher_parser"
+path = "fuzz_targets/cypher_parser.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "packstream_decoder"
+path = "fuzz_targets/packstream_decoder.rs"
+test = false
+doc = false
+bench = false
+
+[workspace]
+members = ["."]

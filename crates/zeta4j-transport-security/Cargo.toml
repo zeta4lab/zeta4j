@@ -1,0 +1,32 @@
+[package]
+publish = false
+name = "zeta4j-transport-security"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "Canonical TLS and trust-material primitives for Zeta4j"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+http.workspace = true
+hyper-util.workspace = true
+libc.workspace = true
+rustls.workspace = true
+rustls-pki-types.workspace = true
+serde.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+tokio-rustls.workspace = true
+tonic.workspace = true
+tower.workspace = true
+zeroize.workspace = true
+zeta4j-common = { path = "../zeta4j-common" }
+
+[dev-dependencies]
+rcgen.workspace = true
+tempfile.workspace = true
+
+[lints]
+workspace = true

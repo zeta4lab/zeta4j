@@ -1,0 +1,43 @@
+# =============================================================================
+# Zeta4j Cache - Two-tier Caching System
+# =============================================================================
+
+[package]
+publish = false
+name = "zeta4j-cache"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Two-tier caching system with moka (L1) and redb (L2) for Zeta4j"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+# Zeta4j dependencies
+zeta4j-common = { path = "../zeta4j-common" }
+
+# Caching
+moka.workspace = true
+
+# Serialization
+serde.workspace = true
+zeta4j-codec.workspace = true
+
+redb.workspace = true
+
+# Synchronization
+parking_lot.workspace = true
+dashmap.workspace = true
+
+# Logging
+tracing.workspace = true
+
+# Error handling
+thiserror.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
+tokio-test.workspace = true
+
+[lints]
+workspace = true

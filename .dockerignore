@@ -1,0 +1,12 @@
+.git
+target/
+fuzz/target/
+docs/
+*.md
+!README.md
+.github/
+.env
+.env.*
+*.key
+*.pem
+*.pk8

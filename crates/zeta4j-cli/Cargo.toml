@@ -1,0 +1,77 @@
+# =============================================================================
+# Zeta4j CLI Common Library
+# =============================================================================
+#
+# 모든 에디션에서 공유하는 CLI 유틸리티
+#
+# - Admin/Shell/Ctl: edition-neutral client CLI logic
+
+[package]
+publish = false
+name = "zeta4j-cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Edition-neutral Zeta4j client CLI"
+license.workspace = true
+repository.workspace = true
+
+[features]
+default = []
+
+[dependencies]
+# 내부 크레이트
+zeta4j-common = { path = "../zeta4j-common" }
+zeta4j-bolt-client = { path = "../zeta4j-bolt-client" }
+zeta4j-cli-grpc = { path = "../zeta4j-cli-grpc" }
+zeta4j-credential = { path = "../zeta4j-credential" }
+zeta4j-server-lifecycle = { path = "../zeta4j-server-lifecycle" }
+zeta4j-transport-security = { path = "../zeta4j-transport-security" }
+
+# 비동기 런타임
+tokio.workspace = true
+tokio-stream.workspace = true
+futures.workspace = true
+
+# CLI
+clap.workspace = true
+clap_complete.workspace = true
+
+# 로깅
+log.workspace = true
+
+# 직렬화
+serde.workspace = true
+serde_json.workspace = true
+zeta4j-codec.workspace = true
+
+# 비동기 트레이트
+async-trait.workspace = true
+
+# 유틸리티
+dirs.workspace = true
+toml.workspace = true
+rand.workspace = true
+hex.workspace = true
+time.workspace = true
+
+# 시스템
+num_cpus.workspace = true
+libc.workspace = true
+
+# CLI 비밀번호 입력
+rpassword.workspace = true
+reqwest.workspace = true
+rustls.workspace = true
+
+[dev-dependencies]
+rcgen.workspace = true
+tokio-test.workspace = true
+tempfile.workspace = true
+
+[[bin]]
+name = "z4j"
+path = "src/bin/z4j.rs"
+
+[lints]
+workspace = true

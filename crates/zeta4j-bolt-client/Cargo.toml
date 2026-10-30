@@ -1,0 +1,26 @@
+[package]
+publish = false
+name = "zeta4j-bolt-client"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Edition-neutral Bolt client and interactive shell"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+zeta4j-bolt-protocol = { path = "../zeta4j-bolt-protocol" }
+
+aes-gcm.workspace = true
+base64.workspace = true
+rand.workspace = true
+ring.workspace = true
+rustls.workspace = true
+zeta4j-transport-security = { path = "../zeta4j-transport-security" }
+rustyline.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+zeroize.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,17 @@
+[package]
+publish = false
+name = "zeta4j-codec"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Canonical bounded binary serialization for Zeta4j state and wire payloads"
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+postcard.workspace = true
+serde.workspace = true
+
+[lints]
+workspace = true

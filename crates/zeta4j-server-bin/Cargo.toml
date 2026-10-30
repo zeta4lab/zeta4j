@@ -1,0 +1,68 @@
+# Zeta4j server
+#
+# 바이너리:
+# - zeta4jd: 그래프 DB 서버 (Bolt + HTTP)
+# 클라이언트 기능은 독립 패키지의 단일 `z4j` 바이너리가 제공한다.
+
+[package]
+publish = false
+name = "zeta4j"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Zeta4j graph database server"
+license.workspace = true
+repository.workspace = true
+
+[features]
+default = []
+
+[dependencies]
+# =============================================================================
+# 내부 크레이트
+# =============================================================================
+zeta4j-graph = { path = "../zeta4j-graph" }
+zeta4j-server = { path = "../zeta4j-server" }
+zeta4j-server-bootstrap = { path = "../zeta4j-server-bootstrap" }
+zeta4j-server-lifecycle = { path = "../zeta4j-server-lifecycle" }
+
+# 서버 gRPC 계약
+zeta4j-cli-grpc = { path = "../zeta4j-cli-grpc" }
+
+# =============================================================================
+# 바이너리 진입점에서 직접 사용하는 의존성만 포함
+# (나머지는 zeta4j-cli를 통해 간접 의존)
+# =============================================================================
+
+# 비동기 런타임 (#[tokio::main])
+tokio.workspace = true
+
+# CLI 인자 파싱 (Args 구조체)
+clap.workspace = true
+
+# 로깅 (error! 매크로)
+log.workspace = true
+
+# TLS CryptoProvider 설치
+rustls.workspace = true
+
+# =============================================================================
+# 라이브러리 (router 모듈)에서 직접 사용하는 의존성
+# =============================================================================
+
+# HTTP 라우터 (Router, routing::get, Json)
+axum.workspace = true
+
+# 직렬화 (Serialize derive)
+serde.workspace = true
+serde_json.workspace = true
+
+# 비동기 스트림 (futures::StreamExt)
+futures.workspace = true
+
+[[bin]]
+name = "zeta4jd"
+path = "src/bin/zeta4jd.rs"
+
+[lints]
+workspace = true

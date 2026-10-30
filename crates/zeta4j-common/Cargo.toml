@@ -1,0 +1,49 @@
+[package]
+publish = false
+name = "zeta4j-common"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Zeta4j Common Types and Traits"
+license.workspace = true
+repository.workspace = true
+keywords = ["graph", "database", "common"]
+categories = ["database"]
+
+[dependencies]
+# Error handling
+thiserror.workspace = true
+
+# Serialization
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+hex.workspace = true
+libc.workspace = true
+
+# Logging
+tracing.workspace = true
+
+# Config utilities
+humantime.workspace = true
+num_cpus.workspace = true
+
+# URL parsing (for SSRF validation)
+url.workspace = true
+
+# Home directory (for path validation)
+dirs.workspace = true
+
+# gRPC (optional, for ZetaError -> tonic::Status conversion)
+tonic = { workspace = true, optional = true }
+
+[features]
+default = []
+grpc = ["tonic"]
+
+[dev-dependencies]
+tempfile.workspace = true
+tokio.workspace = true
+
+[lints]
+workspace = true

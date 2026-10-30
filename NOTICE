@@ -1,0 +1,8 @@
+Zeta4j
+Copyright 2026 Kangyou Choi
+
+This product is licensed under the Apache License, Version 2.0.
+See the LICENSE file at the root of this distribution.
+
+Third-party Rust crates compiled into the binaries are distributed under their
+own licenses; the accepted license set is listed in deny.toml.
