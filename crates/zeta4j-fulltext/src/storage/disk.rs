@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 디스크 저장소
 //!
 //! Tantivy 인덱스의 디스크 영속화를 관리합니다.

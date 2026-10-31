@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 공통 CLI 트레이트 및 컨텍스트
 //!
 //! 모든 CLI 커맨드가 구현해야 하는 인터페이스와

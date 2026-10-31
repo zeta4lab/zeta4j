@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Server Monitoring Module (M7.1 ~ M7.4)
 //!
 //! 서버 모니터링 및 관측가능성(Observability) 시스템

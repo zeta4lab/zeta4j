@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! BFS 기반 최단 경로 알고리즘
 //!
 //! 가중치가 없는 그래프에서 두 노드 간 최단 경로를 찾습니다.

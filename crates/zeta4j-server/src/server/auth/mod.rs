@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Authentication for the Zeta4j graph database server.
 //!
 //! Adapters resolve passwords, bearer tokens and API keys into the canonical

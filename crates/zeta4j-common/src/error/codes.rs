@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 에러 코드 상수 정의
 //!
 //! 모든 에러는 구조화된 코드를 가지며, 이를 통해 에러를 분류하고 추적할 수 있습니다.

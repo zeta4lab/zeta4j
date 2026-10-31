@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 그래프 엔진 - 통합 그래프 연산 관리자
 //!
 //! ## 모듈 구조

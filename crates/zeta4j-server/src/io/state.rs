@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 상태 관리 및 JSON I/O 모듈
 //!
 //! 라우터 AppState에서 공통으로 사용하는 상태 관리 패턴과 JSON 파일 I/O를 제공합니다.

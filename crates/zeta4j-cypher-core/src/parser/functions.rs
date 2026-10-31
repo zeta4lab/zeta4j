@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Function name mapping
 //!
 //! 스칼라 함수 이름을 ScalarFunction 열거형으로 변환

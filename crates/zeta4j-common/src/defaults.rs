@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Default values for Zeta4j configuration
 //!
 //! 모든 zeta4j 크레이트에서 공유하는 기본값 상수입니다.

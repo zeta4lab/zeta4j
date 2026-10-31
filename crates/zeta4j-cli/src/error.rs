@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! CLI 에러 처리
 //!
 //! `ZetaError`를 기반으로 사용자 친화적인 에러 메시지와 해결 제안을 제공합니다.

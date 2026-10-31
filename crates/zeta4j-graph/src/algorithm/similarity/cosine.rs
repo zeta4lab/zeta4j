@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cosine Similarity 알고리즘
 //!
 //! 두 노드 간 코사인 유사도를 계산합니다.

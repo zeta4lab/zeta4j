@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GEXF (Graph Exchange XML Format) Import/Export
 //!
 //! v1.56.0: GEXF 표준 그래프 교환 포맷 지원

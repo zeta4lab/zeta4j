@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! IO 압축 지원
 //!
 //! v1.57.0: gzip/lz4 압축 지원

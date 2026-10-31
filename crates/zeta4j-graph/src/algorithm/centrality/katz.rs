@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Katz Centrality 알고리즘
 //!
 //! Eigenvector Centrality의 일반화 버전으로, 감쇠 계수(alpha)와

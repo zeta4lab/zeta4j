@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 그래프 엣지 구조
 
 use crate::core::serialization::PostcardSerializable;

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 쿼리 최적화를 위한 통계 수집 모듈
 //!
 //! 그래프 데이터의 통계 정보를 수집하여 카디널리티 추정 및 비용 계산에 활용합니다.

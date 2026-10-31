@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! M7.1: Extended Metrics Collection
 //!
 //! 통합 메트릭 레지스트리 및 확장 메트릭 수집

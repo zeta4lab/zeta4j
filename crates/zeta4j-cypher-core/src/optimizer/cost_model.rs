@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 쿼리 비용 모델
 //!
 //! 실행 계획의 비용을 추정하는 비용 모델을 정의합니다.

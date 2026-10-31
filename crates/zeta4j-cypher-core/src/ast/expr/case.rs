@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! CASE 표현식 AST
 //!
 //! Simple CASE와 Generic CASE 표현식 정의

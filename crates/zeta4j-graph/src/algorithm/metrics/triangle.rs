@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 삼각형 계수 (Triangle Count)
 //!
 //! 그래프에서 삼각형(3개 노드가 모두 연결된 패턴) 개수를 계산합니다.

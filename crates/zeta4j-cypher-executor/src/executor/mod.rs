@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cypher 쿼리 실행 엔진
 //!
 //! 파싱된 Cypher AST를 실행하여 그래프 데이터베이스에서 데이터를 조회/변경하는 실행 엔진입니다.

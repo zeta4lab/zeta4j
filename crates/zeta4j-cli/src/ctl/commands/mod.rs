@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 명령 모듈
 //!
 //! zeta4jctl의 서브커맨드 구현을 제공합니다.

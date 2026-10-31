@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! gRPC 클라이언트 매크로
 //!
 //! 반복적인 클라이언트 코드를 줄이기 위한 매크로 모음

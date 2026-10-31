@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 자동 튜닝 통합 모듈
 
 use super::auto_stats::{AutoStatsConfig, AutoStatsRefresher, ChangeType, RefreshResult};

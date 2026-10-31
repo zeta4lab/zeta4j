@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Union-Find (Disjoint Set Union) 자료구조
 //!
 //! 분리 집합을 효율적으로 관리합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 클래식 그래프 알고리즘 스칼라 함수
 //!
 //! MST, Topological Sort, Max Flow, Bipartite, SCC,

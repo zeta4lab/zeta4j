@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Bolt handshake negotiation.
 
 use super::{BOLT_MAGIC, BoltVersion, HANDSHAKE_SIZE, HandshakeError};

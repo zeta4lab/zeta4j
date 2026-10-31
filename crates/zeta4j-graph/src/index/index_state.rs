@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 인덱스 상태 관리 모듈
 //!
 //! 인덱스의 상태(Clean, Stale, Rebuilding 등)를 추적하고

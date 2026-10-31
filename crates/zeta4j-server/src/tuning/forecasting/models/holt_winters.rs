@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Holt-Winters 모델
 //!
 //! 계절성을 지원하는 Holt-Winters 삼중 지수 평활법을 구현합니다.

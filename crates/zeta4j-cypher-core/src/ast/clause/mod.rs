@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 절(Clause) AST 모듈
 //!
 //! Cypher 쿼리의 절을 정의합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Group Commit (WAL 배치 쓰기 최적화)
 //!
 //! 여러 트랜잭션의 WAL 레코드를 모아서 한 번에 fsync하여 I/O 성능을 향상시킵니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! B+ Tree 메타데이터 페이지
 //!
 //! 메타데이터 페이지(Page 0)는 B+ Tree의 상태를 영속적으로 저장합니다.

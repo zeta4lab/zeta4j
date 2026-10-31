@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Copyright 2026 Kangyou Choi
+# SPDX-License-Identifier: Apache-2.0
+
 # End-to-end smoke test against locally built release binaries.
 #
 #   cargo build --release -p zeta4j -p zeta4j-cli

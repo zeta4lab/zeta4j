@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Zeta4j Cypher Core
 //!
 //! Cypher 쿼리 언어 파서 및 코어 컴포넌트

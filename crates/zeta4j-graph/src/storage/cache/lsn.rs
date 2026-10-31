@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! LSN (Log Sequence Number) 지원 메서드
 //!
 //! Page-level WAL을 위한 LSN 추적 기능을 제공합니다.

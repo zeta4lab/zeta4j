@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Protocol-independent credential lifecycle domain.
 //!
 //! This crate deliberately has no HTTP, gRPC, storage, or runtime

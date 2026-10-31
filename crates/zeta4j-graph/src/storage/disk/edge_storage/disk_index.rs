@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Disk-based Edge Secondary Indexes
 //!
 //! 엣지의 보조 인덱스를 디스크에 영속화합니다.

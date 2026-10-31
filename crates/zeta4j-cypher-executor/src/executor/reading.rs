@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! MATCH 절 실행 모듈
 //!
 //! MATCH, OPTIONAL MATCH 패턴 매칭 및 관계 탐색

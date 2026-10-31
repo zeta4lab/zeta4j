@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 패턴 매칭 및 경로 순회
 
 use crate::core::{EdgeId, NodeId};

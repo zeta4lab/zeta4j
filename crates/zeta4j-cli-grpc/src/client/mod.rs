@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! gRPC Client Module
 //!
 //! CLI에서 사용하는 gRPC 클라이언트 유틸리티

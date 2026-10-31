@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 업데이트 절 AST
 //!
 //! CREATE, DELETE, SET, MERGE, REMOVE 절

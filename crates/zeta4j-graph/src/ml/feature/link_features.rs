@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Link Features
 //!
 //! 링크 예측을 위한 노드 쌍 피처 결합

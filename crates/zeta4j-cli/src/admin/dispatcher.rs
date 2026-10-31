@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Admin 명령 디스패처 (gRPC 클라이언트 기반)
 
 use std::process::ExitCode;

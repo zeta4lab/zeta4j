@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 페이지네이션 관련 타입 정의 모듈
 
 use super::cursor::CursorId;

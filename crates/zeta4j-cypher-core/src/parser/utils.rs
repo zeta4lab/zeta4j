@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Parser utility functions
 //!
 //! 공백 처리, 식별자 파싱, 키워드 파싱 등 기본 유틸리티

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 프로젝션 절 AST
 //!
 //! WITH, RETURN, UNWIND 절

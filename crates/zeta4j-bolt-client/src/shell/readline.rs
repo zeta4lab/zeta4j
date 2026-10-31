@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Rustyline integration for the Cypher shell.
 //!
 //! 대화형 셸을 위한 Readline 래퍼를 제공합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 읽기 절 AST
 //!
 //! MATCH, OPTIONAL MATCH, LOAD CSV 절

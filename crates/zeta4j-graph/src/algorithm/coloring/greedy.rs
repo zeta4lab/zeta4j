@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Greedy Graph Coloring Algorithm
 //!
 //! 순차적으로 노드를 방문하며 가능한 최소 색상을 할당합니다.

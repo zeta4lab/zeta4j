@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Vertex Cover 알고리즘
 //!
 //! 정점 커버: 그래프의 모든 엣지가 적어도 하나의 정점에 인접하도록 하는 정점 집합

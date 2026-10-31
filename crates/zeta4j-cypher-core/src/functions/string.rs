@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 문자열 스칼라 함수 구현
 //!
 //! toUpper, toLower, trim, replace, substring 등

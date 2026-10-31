@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! M8.1: Cypher Shell
 //!
 //! 대화형 Cypher 셸 및 파일 실행

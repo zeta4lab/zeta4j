@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GPU 가속 Node2Vec 랜덤 워크
 //!
 //! Node2Vec 논문(Grover & Leskovec, 2016)의 편향된 랜덤 워크의 GPU 구현입니다.

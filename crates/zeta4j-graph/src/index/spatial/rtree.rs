@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! R*-Tree 구현
 //!
 //! Beckmann et al.의 R*-Tree 알고리즘을 기반으로 구현합니다.

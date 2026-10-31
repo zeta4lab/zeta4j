@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! UNION 쿼리 최적화 모듈
 //!
 //! UNION 쿼리의 실행 계획을 최적화합니다.

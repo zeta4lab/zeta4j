@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Steiner Tree 알고리즘
 //!
 //! 주어진 터미널 정점들을 최소 비용으로 연결하는 트리를 찾습니다.

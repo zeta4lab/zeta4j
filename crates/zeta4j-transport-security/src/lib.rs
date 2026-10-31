@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Canonical TLS and trust-material primitives.
 //!
 //! This crate owns transport policy and cryptographic material loading. Protocol

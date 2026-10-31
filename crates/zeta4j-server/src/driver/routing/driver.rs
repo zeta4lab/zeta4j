@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 라우팅 드라이버
 //!
 //! 클러스터 환경에서 자동 라우팅을 지원하는 드라이버입니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Poolable 트레이트 구현 - 메모리 풀 재사용 가능 객체
 
 use crate::core::{Edge, Node, PropertyContainer};

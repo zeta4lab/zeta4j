@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Phase 3: 벡터 검색 프로시저
 //!
 //! - `CALL db.index.vector.queryNodes('idx', k, $query) YIELD node, score`

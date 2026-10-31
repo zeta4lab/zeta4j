@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Phase 3: 프로시저 레지스트리
 //!
 //! 프로시저 등록 및 조회를 담당합니다.

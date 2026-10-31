@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 저장소 백엔드 추상화 트레이트
 //!
 //! 노드와 엣지 저장소의 공통 인터페이스를 정의합니다.

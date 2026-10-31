@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 메트릭 수집기
 //!
 //! 데이터베이스 워크로드 메트릭을 수집하고 관리합니다.

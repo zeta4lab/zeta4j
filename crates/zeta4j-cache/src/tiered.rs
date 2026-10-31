@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 2-tier 캐시 구현
 //!
 //! L1 (moka 인메모리) + L2 (redb 디스크) 계층 구조

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! M7.2: Health Check System
 //!
 //! 컴포넌트 상태 체크, Liveness/Readiness 프로브

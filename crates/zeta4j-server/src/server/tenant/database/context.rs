@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Logical database storage context and commit ownership.
 //!
 //! A context owns the single redb database that will become the canonical

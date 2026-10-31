@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Fulltext 검색 프로시저
 //!
 //! Neo4j 호환 Fulltext 검색 프로시저를 제공합니다.

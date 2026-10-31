@@ -1,4 +1,7 @@
 #!/bin/sh
+# Copyright 2026 Kangyou Choi
+# SPDX-License-Identifier: Apache-2.0
+
 # Creates the token signing key in the data volume on first start.
 set -eu
 key="${ZETA4J_JWT_SIGNING_KEY_FILE:-$ZETA4J_HOME/jwt-signer.pk8}"

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 추론 엔진 (Inference Engine)
 //!
 //! v0.52.0: RDF/OWL 스타일의 추론 기능 지원

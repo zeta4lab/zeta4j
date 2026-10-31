@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 쿼리 힌트 시스템
 //!
 //! openCypher 호환 USING 절을 지원합니다:

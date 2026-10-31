@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # 트랜잭션 메트릭 수집
 //!
 //! 트랜잭션 시스템의 성능 및 상태 메트릭을 수집하고 분석합니다.

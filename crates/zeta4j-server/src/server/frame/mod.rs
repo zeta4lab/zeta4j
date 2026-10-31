@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Frame Protocol Module
 //!
 //! Phase 2 Step 1 - M1.4: 프레임 프로토콜

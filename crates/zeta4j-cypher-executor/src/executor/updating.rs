@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! UPDATE 절 실행 모듈
 //!
 //! CREATE, DELETE, SET, MERGE 쓰기 작업 처리

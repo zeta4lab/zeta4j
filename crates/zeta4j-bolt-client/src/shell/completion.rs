@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cypher completion engine.
 //!
 //! Cypher 키워드, 메타 명령, 라벨/프로퍼티 자동 완성

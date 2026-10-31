@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 // BFS (Breadth-First Search) Metal Compute Shader
 //
 // Apple Silicon GPU에서 레벨 동기화 BFS를 실행하기 위한 Metal 셰이더입니다.

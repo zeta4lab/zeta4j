@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Floyd-Warshall 모든 쌍 최단 경로 알고리즘
 //!
 //! 그래프의 모든 노드 쌍 간 최단 경로를 계산합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Index command parsing
 //!
 //! CREATE/DROP/SHOW INDEX 명령 파싱

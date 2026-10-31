@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GraphStructure - 통합 그래프 구조 분석기
 //!
 //! 단절점, 단절선, 이중 연결 성분을 한 번에 분석합니다.

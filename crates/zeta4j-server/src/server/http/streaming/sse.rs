@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Server-Sent Events Streaming (M2.4)
 //!
 //! SSE 포맷 스트리밍

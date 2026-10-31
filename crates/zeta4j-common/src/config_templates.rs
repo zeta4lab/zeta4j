@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Canonical generated server configuration templates.
 
 pub const DEFAULT_CORE_TOML: &str = r#"# Zeta4j Core Configuration

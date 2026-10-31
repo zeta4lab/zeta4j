@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! K-Core 분석 스칼라 함수
 //!
 //! kCoreNodes, coreNumber, coreNumbers, degeneracy,

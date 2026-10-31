@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 기본 Clique 연산
 //!
 //! 클리크 검증 및 특정 크기의 클리크 탐색

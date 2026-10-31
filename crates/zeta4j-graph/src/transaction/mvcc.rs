@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # MVCC (Multi-Version Concurrency Control)
 //!
 //! 다중 버전 동시성 제어를 제공하는 모듈입니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 엣지 전용 인덱싱 시스템
 
 use crate::core::{EdgeId, MemoryReporter, NodeId, Value};

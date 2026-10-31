@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 공간 인덱스 모듈
 //!
 //! R*-Tree 기반 2D/3D 공간 인덱싱을 제공합니다.

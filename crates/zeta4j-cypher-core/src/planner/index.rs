@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Index Scan Planning
 //!
 //! 인덱스 스캔 최적화 및 관련 함수들

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Network Core Layer
 //!
 //! 저수준 네트워크/연결 관리 로직을 담당합니다.

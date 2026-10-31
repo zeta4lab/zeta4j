@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cypher Vector procedure provider backed by logical-database redb generations.
 
 use std::sync::Arc;

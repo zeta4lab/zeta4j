@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Bolt protocol client implementation for the driver.
 //!
 //! This module provides a client-side Bolt protocol implementation

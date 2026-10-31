@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! petgraph 호환 레이어 (v1.76.0)
 //!
 //! Zeta4j GraphEngine과 petgraph 라이브러리 간의 양방향 변환을 지원합니다.

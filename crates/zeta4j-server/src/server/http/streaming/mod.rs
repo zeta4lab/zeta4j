@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Streaming Response Module (M2.4)
 //!
 //! 대용량 쿼리 결과의 효율적인 전송을 위한 스트리밍 응답

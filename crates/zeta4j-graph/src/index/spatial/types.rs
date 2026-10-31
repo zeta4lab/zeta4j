@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 공간 인덱스 기본 타입 정의
 //!
 //! Point2D, Point3D, BoundingBox, BoundingBox3D 등 공간 데이터 타입을 정의합니다.

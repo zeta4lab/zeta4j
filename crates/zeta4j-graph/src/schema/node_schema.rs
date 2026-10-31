@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 노드 라벨 스키마
 //!
 //! 노드 라벨에 대한 프로퍼티 스키마 정의

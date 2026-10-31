@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스키마 관리자
 //!
 //! 노드 라벨 스키마와 관계 타입 스키마를 관리합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GPU 가속 커뮤니티 탐지 알고리즘
 //!
 //! Label Propagation 및 Triangle Counting의 GPU 구현입니다.

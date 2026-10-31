@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # LZ4 Compression Module
 //!
 //! LZ4 압축/해제 기능을 제공합니다.

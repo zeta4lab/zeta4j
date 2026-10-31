@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Feature Extractor
 //!
 //! 그래프 알고리즘을 통한 노드 피처 추출

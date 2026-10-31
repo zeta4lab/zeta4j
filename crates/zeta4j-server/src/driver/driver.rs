@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! M9.1: Driver
 //!
 //! 드라이버 인스턴스 및 설정

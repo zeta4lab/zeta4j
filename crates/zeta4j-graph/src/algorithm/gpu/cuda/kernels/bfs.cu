@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 // BFS (Breadth-First Search) CUDA 커널
 //
 // GPU에서 레벨 동기화 BFS를 실행하기 위한 CUDA 커널입니다.

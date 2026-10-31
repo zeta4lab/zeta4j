@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 그래프 알고리즘 스칼라 함수 실행 모듈
 //!
 //! Cypher의 그래프 알고리즘 함수들을 처리합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! B+ Tree 재조정 연산
 //!
 //! Underflow 시 형제로부터 빌려오기, 병합, 루트 축소 등을 처리합니다.

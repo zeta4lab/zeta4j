@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! B+Tree Internal Page (SlottedPage 기반)
 //!
 //! SlottedPage를 사용하여 가변 길이 키와 Slot-level WAL을 지원합니다.

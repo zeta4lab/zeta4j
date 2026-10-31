@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Bellman-Ford 최단 경로 알고리즘
 //!
 //! 음수 가중치를 허용하는 단일 소스 최단 경로 알고리즘입니다.

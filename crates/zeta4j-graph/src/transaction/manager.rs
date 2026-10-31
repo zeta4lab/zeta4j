@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # 트랜잭션 매니저
 //!
 //! 트랜잭션의 생명주기를 관리하는 핵심 컴포넌트입니다.

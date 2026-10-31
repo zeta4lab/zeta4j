@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Client Information and Connection Statistics
 //!
 //! Phase 2 Step 5 M5.3: 클라이언트 추적

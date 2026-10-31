@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 이분 그래프 판별 및 Kuhn's 최대 매칭 알고리즘
 //!
 //! 이분 그래프(Bipartite Graph)는 노드를 두 개의 독립 집합으로 나눌 수 있고,

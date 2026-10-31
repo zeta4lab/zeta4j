@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 랜덤 워크 및 임베딩 스칼라 함수
 //!
 //! randomWalk, randomWalks, rwr, node2vecWalk, fastRP, hashGNN 등

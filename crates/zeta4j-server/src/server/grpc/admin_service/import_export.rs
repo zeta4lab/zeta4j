@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Import/Export (Streaming) 메서드들.
 
 use std::pin::Pin;

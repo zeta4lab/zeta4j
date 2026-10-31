@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 그래프 메트릭 및 구조 분석 스칼라 함수
 //!
 //! density, triangleCount, clusteringCoefficient, diameter, radius,

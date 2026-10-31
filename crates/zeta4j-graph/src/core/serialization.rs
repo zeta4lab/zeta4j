@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 직렬화 트레이트
 //!
 //! Postcard 기반 직렬화/역직렬화를 위한 공통 트레이트입니다.

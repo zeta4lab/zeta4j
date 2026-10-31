@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Database Catalog Manager
 //!
 //! 데이터베이스 카탈로그 관리

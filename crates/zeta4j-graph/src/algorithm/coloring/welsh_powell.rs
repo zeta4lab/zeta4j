@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Welsh-Powell Graph Coloring Algorithm
 //!
 //! 차수(degree) 내림차순으로 정렬한 후 색칠합니다.

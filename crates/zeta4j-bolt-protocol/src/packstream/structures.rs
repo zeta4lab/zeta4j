@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! PackStream structure types shared by server and clients.
 
 use std::collections::HashMap;

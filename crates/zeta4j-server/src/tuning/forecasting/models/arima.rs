@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! ARIMA 모델
 //!
 //! AutoRegressive Integrated Moving Average 모델과

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 함수 표현식 평가기
 //!
 //! 함수 표현식을 평가하여 값을 계산합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GPU 가속 BFS (Breadth-First Search) 알고리즘
 //!
 //! CUDA 또는 Metal을 사용하여 BFS를 GPU에서 계산합니다.

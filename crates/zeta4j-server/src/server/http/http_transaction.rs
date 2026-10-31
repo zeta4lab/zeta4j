@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! HTTP Transaction Manager
 //!
 //! HTTP API를 통한 트랜잭션 관리

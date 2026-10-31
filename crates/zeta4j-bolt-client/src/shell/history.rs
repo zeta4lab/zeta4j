@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Secure command history for the Cypher shell.
 //!
 //! AES-256-GCM 암호화 히스토리 저장

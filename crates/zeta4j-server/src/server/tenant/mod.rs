@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Multi-Tenancy Module (M6.1 ~ M6.4)
 //!
 //! 다중 데이터베이스 및 테넌트 격리 시스템

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Edmonds-Karp 알고리즘
 //!
 //! BFS 기반 Ford-Fulkerson 알고리즘입니다.

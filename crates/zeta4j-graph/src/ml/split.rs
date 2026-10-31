@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 훈련/테스트 데이터 분할
 //!
 //! Stratified sampling을 지원하는 train/test/validation 분할

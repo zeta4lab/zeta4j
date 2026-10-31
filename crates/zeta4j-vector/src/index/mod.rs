@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 벡터 인덱스 모듈
 //!
 //! 저장소가 소유한 canonical vector record로부터 immutable HNSW generation을 만들고

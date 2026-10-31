@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 동시성 지원 LRU 캐시
 //!
 //! DashMap + 효율적인 LRU 추적을 결합한 스레드-안전 캐시입니다.

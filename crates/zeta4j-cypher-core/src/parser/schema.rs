@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Schema DDL parsing
 //!
 //! CREATE/DROP NODE LABEL, RELATIONSHIP TYPE 명령 파싱

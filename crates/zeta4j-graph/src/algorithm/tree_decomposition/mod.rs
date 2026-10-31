@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Tree Decomposition (트리 분해) 알고리즘
 //!
 //! 그래프의 트리 분해와 트리 너비(Treewidth)를 계산합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 워크로드 패턴 인식
 //!
 //! 시계열 데이터에서 시간대별, 요일별, 주기적 패턴을 인식합니다.

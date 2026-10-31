@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 알림 시스템 모듈
 //!
 //! 진단 이벤트에 대한 알림을 다양한 채널로 전송합니다.

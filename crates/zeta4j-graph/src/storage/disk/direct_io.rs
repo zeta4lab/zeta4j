@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 #![allow(unsafe_code)]
 //! Direct I/O 지원 모듈
 //!

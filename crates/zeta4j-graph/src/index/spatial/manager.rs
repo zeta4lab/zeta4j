@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 공간 인덱스 관리자
 //!
 //! GraphEngine과 통합되어 공간 인덱스를 관리합니다.

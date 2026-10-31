@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 병렬 PageRank 알고리즘
 //!
 //! Rayon을 사용하여 PageRank 알고리즘을 병렬화합니다.

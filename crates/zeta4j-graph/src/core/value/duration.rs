@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cypher Duration 타입
 //!
 //! ISO 8601 기반의 기간 표현을 정의합니다.

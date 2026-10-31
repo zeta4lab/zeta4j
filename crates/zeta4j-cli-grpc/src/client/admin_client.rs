@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Admin Service Client
 //!
 //! 데이터베이스 관리 서비스 클라이언트 (Base+)

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 통계 자동 갱신 모듈
 
 use std::collections::HashMap;

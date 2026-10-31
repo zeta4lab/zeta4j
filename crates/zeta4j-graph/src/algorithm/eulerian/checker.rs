@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Eulerian Path/Circuit 존재 여부 판별
 //!
 //! 오일러 회로: 모든 엣지를 한 번씩 방문하고 시작점으로 돌아옴

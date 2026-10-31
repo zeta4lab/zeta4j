@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # 트랜잭션 진단 도구
 //!
 //! 트랜잭션 시스템의 상태를 분석하고 문제를 진단하는 도구입니다.

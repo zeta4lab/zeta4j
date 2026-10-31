@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 집계 함수 실행 모듈
 //!
 //! RETURN 절에서 집계 함수(COUNT, SUM, AVG, MIN, MAX, COLLECT)를 처리합니다.

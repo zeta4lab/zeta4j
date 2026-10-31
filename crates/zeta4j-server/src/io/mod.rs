@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 데이터 Import/Export 모듈
 //!
 //! v0.39.0: JSON/CSV 포맷 지원

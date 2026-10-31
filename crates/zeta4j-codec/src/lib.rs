@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Canonical binary serialization for Zeta4j persisted and wire payloads.
 //!
 //! One strict configuration avoids format drift between crates. Decoding rejects

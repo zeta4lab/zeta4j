@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스키마 진화 관리 (Schema Evolution)
 //!
 //! 스키마 버전 관리 및 마이그레이션 시스템입니다.

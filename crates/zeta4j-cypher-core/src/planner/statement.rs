@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Statement Planning
 //!
 //! Statement 실행 계획 생성 함수들

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 복합 인덱스 관리자 모듈
 
 use super::index::{CompositeIndex, CompositeIndexDef, CompositeIndexStats};

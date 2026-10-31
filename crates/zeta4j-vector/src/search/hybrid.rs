@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Hybrid Query (하이브리드 쿼리) 구현
 //!
 //! 벡터 유사도 검색, 그래프 구조 쿼리, BM25 전문 검색을 결합한 하이브리드 쿼리 기능.

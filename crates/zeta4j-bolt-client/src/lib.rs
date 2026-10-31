@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Edition-neutral Bolt client and interactive shell.
 
 mod bolt_client;

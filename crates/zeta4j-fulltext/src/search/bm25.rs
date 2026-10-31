@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! BM25 검색기
 //!
 //! Tantivy의 BM25 알고리즘을 활용한 검색을 제공합니다.

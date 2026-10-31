@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Phase 3: 프로시저 시스템 모듈
 //!
 //! Cypher의 `CALL procedure() YIELD ...` 문법을 지원하는 프로시저 시스템입니다.

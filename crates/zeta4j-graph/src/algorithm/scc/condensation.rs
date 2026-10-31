@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Condensation Graph (압축 그래프)
 //!
 //! SCC를 노드로 압축하여 DAG를 생성합니다.

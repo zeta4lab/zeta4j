@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Primitive value parsing functions
 //!
 //! 기본 값 파싱: 문자열, 숫자, 불리언, null

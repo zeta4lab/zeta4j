@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GPU 가속 모듈
 //!
 //! 그래프 알고리즘의 GPU 병렬 처리를 지원합니다.

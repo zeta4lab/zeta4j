@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 복합 인덱스 모듈
 //!
 //! 여러 속성을 조합하여 인덱싱하는 복합 인덱스를 제공합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Pipeline Catalog
 //!
 //! 파이프라인 및 모델 관리

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Disk-based Label Index
 //!
 //! 레이블 기반 노드 검색을 위한 디스크 영속 인덱스입니다.

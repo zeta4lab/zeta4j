@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! DFS 기반 Topological Sort 알고리즘
 //!
 //! DFS 완료 역순을 이용한 위상 정렬입니다.

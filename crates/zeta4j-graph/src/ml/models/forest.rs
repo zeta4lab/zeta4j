@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Random Forest
 //!
 //! 결정 트리 앙상블 분류기

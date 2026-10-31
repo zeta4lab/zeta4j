@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 메모리 관리 계층
 //!
 //! 메모리 풀, 메모리 제한, 페이지 교체 정책(LRU/ARC)을 제공합니다.

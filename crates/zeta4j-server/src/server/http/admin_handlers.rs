@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Admin Handlers (M2.3)
 //!
 //! 관리 엔드포인트 핸들러

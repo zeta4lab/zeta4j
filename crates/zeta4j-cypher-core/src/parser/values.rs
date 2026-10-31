@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Value parsing functions
 //!
 //! 프로퍼티 패턴 파싱 (표현식 지원)

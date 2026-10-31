@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 인덱스 관리 모듈
 //!
 //! Tantivy 인덱스의 생성, 읽기, 쓰기를 관리합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 시간 함수 구현 모듈
 //!
 //! 시간 관련 함수들의 구현:

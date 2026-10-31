@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! QueryExecutor 구조체 및 빌더 메서드.
 
 use std::sync::Arc;

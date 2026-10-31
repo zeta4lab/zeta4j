@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Hopcroft-Karp 최대 이분 매칭 알고리즘
 //!
 //! 효율적인 최대 이분 매칭 알고리즘으로,

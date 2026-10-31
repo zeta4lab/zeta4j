@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 디스크 I/O 계층
 //!
 //! 디스크 매니저, 페이지, 슬롯 페이지, Direct I/O, 디스크 노드/엣지 저장소를 제공합니다.

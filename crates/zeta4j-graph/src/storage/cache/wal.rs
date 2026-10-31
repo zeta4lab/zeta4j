@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! PageWAL 통합 메서드
 //!
 //! Page-level WAL과의 통합을 위한 기능을 제공합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GraphIndex - 통합 그래프 인덱싱 시스템
 //!
 //! 모든 인덱스를 통합 관리하여 일관성을 보장하고 복잡한 쿼리를 지원하는

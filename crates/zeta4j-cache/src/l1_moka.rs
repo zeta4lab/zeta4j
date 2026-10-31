@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! L1 캐시 (moka 기반 인메모리 LRU)
 
 use moka::sync::Cache;

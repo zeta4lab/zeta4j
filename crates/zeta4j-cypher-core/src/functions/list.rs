@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 리스트 함수 구현
 //!
 //! - head(list): 리스트의 첫 번째 요소

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 모델 평가 지표
 //!
 //! 예측 모델의 성능을 평가하기 위한 다양한 지표를 제공합니다.

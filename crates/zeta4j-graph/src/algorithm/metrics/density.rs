@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 그래프 밀도 (Graph Density)
 //!
 //! 그래프의 연결 밀도를 측정합니다.

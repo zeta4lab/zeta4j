@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Prim's Minimum Spanning Tree 알고리즘
 //!
 //! 하나의 시작 노드에서 출발하여 최소 가중치 간선을 선택하며

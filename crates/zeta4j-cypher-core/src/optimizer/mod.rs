@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 쿼리 최적화 모듈
 //!
 //! 비용 기반 최적화(Cost-Based Optimization)를 위한 구성요소를 제공합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # 트랜잭션 오케스트레이터
 //!
 //! 트랜잭션의 전체 생명주기를 관리하고 모든 트랜잭션 관련 컴포넌트를 조정합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 앙상블 모델
 //!
 //! 여러 예측 모델을 조합하여 더 안정적인 예측을 수행합니다.

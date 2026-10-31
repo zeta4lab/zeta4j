@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Graph Coloring 알고리즘
 //!
 //! 인접한 노드가 같은 색을 갖지 않도록 노드에 색을 할당하는 알고리즘들입니다.

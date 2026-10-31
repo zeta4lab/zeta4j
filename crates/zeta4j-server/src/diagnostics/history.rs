@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 히스토리 기반 분석 모듈
 //!
 //! 시계열 데이터 저장 및 트렌드 분석 기능을 제공합니다.

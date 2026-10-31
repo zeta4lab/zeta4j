@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Helper Methods
 //!
 //! 문자열 변환 및 기타 헬퍼 함수들

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! service 명령 구현 (systemd)
 
 use std::path::{Path, PathBuf};

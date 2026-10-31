@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Betweenness Centrality 알고리즘
 //!
 //! 노드가 다른 노드들 사이의 최단 경로에 얼마나 자주 등장하는지를 측정합니다.

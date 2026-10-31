@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Strict environment-or-file secret loading shared by deployment surfaces.
 
 use std::fs::{File, OpenOptions};

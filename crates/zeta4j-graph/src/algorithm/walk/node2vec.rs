@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Node2Vec 스타일 Biased Random Walk
 //!
 //! Node2Vec 논문(Grover & Leskovec, 2016)의 편향된 랜덤 워크 알고리즘입니다.

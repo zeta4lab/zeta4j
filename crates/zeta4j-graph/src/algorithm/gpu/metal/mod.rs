@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Metal 백엔드
 //!
 //! Apple Silicon (M1/M2/M3/M4)을 위한 Metal 백엔드 구현입니다.

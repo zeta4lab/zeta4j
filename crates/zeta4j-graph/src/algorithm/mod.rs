@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 #![allow(dead_code, unused_variables)]
 //! 그래프 알고리즘 엔진
 //!

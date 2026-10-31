@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 유사도 및 링크 예측 스칼라 함수
 //!
 //! jaccard, overlap, cosine, commonNeighbors, adamicAdar,

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 중심성 알고리즘 스트리밍 구현
 //!
 //! 대규모 그래프에서 메모리 효율적인 중심성 계산

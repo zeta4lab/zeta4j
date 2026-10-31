@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Feedback Set 알고리즘
 //!
 //! 그래프에서 사이클을 제거하기 위한 Feedback Vertex Set과 Feedback Arc Set을 찾습니다.

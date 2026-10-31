@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Kruskal's Minimum Spanning Tree 알고리즘
 //!
 //! 모든 간선을 가중치 순으로 정렬한 후,

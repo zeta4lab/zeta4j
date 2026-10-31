@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Feature Scaling
 //!
 //! Min-Max, Standard (Z-score) 스케일링 구현

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 인덱스 트레이트 정의
 //!
 //! B+ 트리, 해시 인덱스 등 다양한 인덱스 구현체를 위한 공통 인터페이스를 정의합니다.

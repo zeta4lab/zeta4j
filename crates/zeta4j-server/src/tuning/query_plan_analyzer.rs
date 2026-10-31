@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 쿼리 플랜 분석기
 //!
 //! 쿼리 실행 계획을 분석하여 인덱스 추천 및 최적화 제안을 제공합니다.

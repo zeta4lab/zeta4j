@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 쿼리 프로파일러 모듈
 //!
 //! v1.61.0: 샘플링 기반 프로파일링 및 오버헤드 최적화

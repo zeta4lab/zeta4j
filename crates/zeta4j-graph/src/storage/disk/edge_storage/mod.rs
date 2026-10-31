@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 디스크 기반 엣지 스토리지
 //!
 //! Page-level WAL은 GraphEngine에서 통합 관리됩니다.

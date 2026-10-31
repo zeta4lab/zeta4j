@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! B+ Tree 인덱스 구현
 //!
 //! 이 모듈은 B+ Tree 인덱스의 핵심 구조체와 유틸리티를 제공합니다.

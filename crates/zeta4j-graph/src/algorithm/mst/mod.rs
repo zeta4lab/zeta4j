@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Minimum Spanning Tree 알고리즘 모듈
 //!
 //! 그래프의 모든 노드를 최소 비용으로 연결하는 트리를 찾습니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스키마 인덱스 힌트
 //!
 //! 스키마에 인덱스 생성 힌트를 정의합니다.

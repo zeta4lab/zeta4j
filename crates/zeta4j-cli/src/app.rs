@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Unified `z4j` command tree and dispatcher.
 
 use std::process::ExitCode;

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Label Propagation Community Detection 알고리즘
 //!
 //! 빠르고 효율적인 커뮤니티 탐지 알고리즘입니다.

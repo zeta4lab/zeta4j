@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! JSON Lines Streaming (M2.4)
 //!
 //! JSON Lines (ndjson) 포맷 스트리밍

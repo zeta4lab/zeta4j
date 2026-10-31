@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Streaming Routes (M2.4)
 //!
 //! 스트리밍 엔드포인트 라우트 정의

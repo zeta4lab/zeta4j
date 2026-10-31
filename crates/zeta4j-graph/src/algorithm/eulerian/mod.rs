@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Eulerian Path/Circuit 알고리즘
 //!
 //! 모든 엣지를 정확히 한 번씩 방문하는 경로/회로를 찾습니다.

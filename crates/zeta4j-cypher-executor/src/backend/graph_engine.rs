@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GraphEngine 기반 CypherBackend 구현
 //!
 //! 서버가 사용하는 GraphEngine 래퍼입니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Bridges (단절선) 알고리즘
 //!
 //! 제거 시 그래프가 분리되는 엣지를 찾습니다.

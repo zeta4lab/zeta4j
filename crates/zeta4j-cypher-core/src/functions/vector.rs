@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 벡터 유사도 스칼라 함수 구현
 //!
 //! HNSW 인덱스의 거리 함수를 Cypher에서 사용할 수 있도록 래핑합니다.

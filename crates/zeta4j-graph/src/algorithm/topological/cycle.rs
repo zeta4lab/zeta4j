@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cycle Detection 알고리즘
 //!
 //! 그래프에서 사이클(순환)을 탐지합니다.

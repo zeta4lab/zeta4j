@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 실행 계획 노드
 //!
 //! 쿼리 실행 계획의 개별 노드

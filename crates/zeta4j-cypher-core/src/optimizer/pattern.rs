@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 패턴 매칭 최적화
 //!
 //! 그래프 DB의 핵심 연산인 MATCH 패턴의 실행 순서를 최적화합니다.

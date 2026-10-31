@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 에러 타입 정의
 //!
 //! `GraphError`는 Zeta4j 그래프 데이터베이스의 모든 에러를 포괄합니다.

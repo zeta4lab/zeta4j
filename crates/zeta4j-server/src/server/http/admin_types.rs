@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Admin API Types (M2.3)
 //!
 //! 관리 엔드포인트용 요청/응답 타입 정의

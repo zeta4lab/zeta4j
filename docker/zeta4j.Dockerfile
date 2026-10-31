@@ -1,4 +1,7 @@
 # syntax=docker/dockerfile:1
+# Copyright 2026 Kangyou Choi
+# SPDX-License-Identifier: Apache-2.0
+
 FROM rust:1.99-bookworm AS build
 RUN apt-get update \
     && apt-get install -y --no-install-recommends protobuf-compiler clang cmake \

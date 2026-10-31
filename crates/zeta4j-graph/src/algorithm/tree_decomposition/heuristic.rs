@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 트리 분해를 위한 휴리스틱 알고리즘
 //!
 //! 제거 순서(Elimination Ordering)를 결정하는 휴리스틱:

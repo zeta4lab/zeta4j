@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Namespace Module (M6.3)
 //!
 //! 네임스페이스 및 테넌트 관리

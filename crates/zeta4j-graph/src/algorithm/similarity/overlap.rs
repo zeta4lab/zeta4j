@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Overlap Coefficient 알고리즘
 //!
 //! 두 노드의 이웃 집합 간 Overlap Coefficient를 계산합니다.

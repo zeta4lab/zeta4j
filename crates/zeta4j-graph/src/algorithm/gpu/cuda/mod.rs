@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! CUDA 백엔드
 //!
 //! NVIDIA GPU를 위한 CUDA 백엔드 구현입니다.

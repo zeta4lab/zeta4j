@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 알고리즘 공통 타입 별칭
 //!
 //! `clippy::type_complexity` 경고를 해결하기 위한 타입 별칭 모듈입니다.

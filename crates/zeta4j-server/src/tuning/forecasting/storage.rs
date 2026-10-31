@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 시계열 저장소
 //!
 //! 메트릭 데이터를 효율적으로 저장하고 조회합니다.

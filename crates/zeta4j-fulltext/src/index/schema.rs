@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Tantivy 스키마 정의
 //!
 //! 청크 문서를 인덱싱하기 위한 스키마를 정의합니다.

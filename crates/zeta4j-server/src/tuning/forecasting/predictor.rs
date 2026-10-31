@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 워크로드 예측 엔진
 //!
 //! 시계열 데이터와 예측 모델을 사용하여 미래 워크로드를 예측합니다.

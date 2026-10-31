@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! System Storage (Redb wrapper)
 //!
 //! 시스템 메타데이터를 위한 영속 스토리지 (Phase 2)

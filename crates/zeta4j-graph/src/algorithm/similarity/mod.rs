@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 유사도 알고리즘
 //!
 //! 그래프에서 노드 간 유사도를 측정하는 알고리즘을 제공합니다.

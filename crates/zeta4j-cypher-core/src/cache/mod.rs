@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 쿼리 캐시 시스템
 //!
 //! 쿼리 실행 성능을 향상시키기 위한 다단계 캐시 시스템을 제공합니다.

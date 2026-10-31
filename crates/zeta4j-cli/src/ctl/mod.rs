@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Zeta4j Controller 모듈
 //!
 //! 서버 시작/종료/상태 관리 도구의 핵심 로직을 제공합니다.

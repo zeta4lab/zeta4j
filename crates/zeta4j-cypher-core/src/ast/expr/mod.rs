@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 표현식 AST 모듈
 //!
 //! Cypher 쿼리의 모든 표현식 타입을 정의합니다.

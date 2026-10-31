@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! PropertyContainer 트레이트
 //!
 //! Node와 Edge에서 공통으로 사용하는 속성 관리 인터페이스를 정의합니다.

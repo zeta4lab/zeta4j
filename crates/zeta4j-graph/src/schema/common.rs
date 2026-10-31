@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 공통 스키마 트레이트
 //!
 //! NodeLabelSchema와 RelationshipTypeSchema의 공통 기능을 정의합니다.

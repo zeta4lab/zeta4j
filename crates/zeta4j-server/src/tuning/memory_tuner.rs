@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 메모리 자동 조정 모듈
 
 /// 메모리 자동 조정 설정

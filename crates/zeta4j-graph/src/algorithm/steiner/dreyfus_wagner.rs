@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Dreyfus-Wagner 알고리즘
 //!
 //! 정확한 최소 Steiner Tree를 찾는 동적 프로그래밍 알고리즘

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Hamiltonian Path/Circuit 백트래킹 알고리즘
 //!
 //! 모든 노드를 정확히 한 번씩 방문하는 경로를 찾습니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 시간/날짜 관련 헬퍼 함수 모듈
 //!
 //! Date, Time, DateTime, Duration 타입의 속성 접근 및 파싱

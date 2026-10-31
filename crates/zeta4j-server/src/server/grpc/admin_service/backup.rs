@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Binary backup and atomic logical restore.
 
 use std::pin::Pin;

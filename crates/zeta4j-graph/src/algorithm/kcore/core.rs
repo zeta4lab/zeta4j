@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! K-Core 알고리즘
 //!
 //! K-Core: 모든 노드가 최소 k개의 이웃을 가지는 최대 부분 그래프

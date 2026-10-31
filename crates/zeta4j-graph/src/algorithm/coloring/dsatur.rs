@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! DSatur (Saturation Degree) Graph Coloring Algorithm
 //!
 //! 채도(saturation degree)가 가장 높은 노드를 우선 색칠합니다.

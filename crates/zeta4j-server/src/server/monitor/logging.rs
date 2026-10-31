@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! M7.3: Structured Logging System
 //!
 //! JSON 구조화 로깅, 동적 로그 레벨, 슬로우 쿼리 로그

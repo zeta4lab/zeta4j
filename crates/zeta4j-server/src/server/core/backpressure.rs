@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Backpressure Controller
 
 use std::sync::atomic::{AtomicBool, AtomicU64, AtomicUsize, Ordering};

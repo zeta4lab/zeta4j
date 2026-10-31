@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Weakly Connected Components (WCC) 알고리즘
 //!
 //! 무방향 그래프에서 연결된 컴포넌트를 찾습니다.

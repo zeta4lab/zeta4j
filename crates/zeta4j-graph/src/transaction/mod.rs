@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # 트랜잭션 관리 모듈
 //!
 //! ACID 트랜잭션을 지원하는 트랜잭션 관리 시스템입니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! M9.6: Reactive Streams
 //!
 //! tokio-stream 기반 비동기 리액티브 스트림

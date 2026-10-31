@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Configuration merging utilities
 //!
 //! CLI 인자와 설정 파일을 병합합니다.

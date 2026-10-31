@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 그래프 구조 분석 알고리즘
 //!
 //! 그래프의 구조적 취약점과 핵심 구조를 분석합니다.

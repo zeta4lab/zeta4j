@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Eigenvector Centrality 알고리즘
 //!
 //! 노드의 중요도가 연결된 이웃 노드들의 중요도에 의해 결정되는 중심성 지표입니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Topological Sort 알고리즘 모듈
 //!
 //! DAG(Directed Acyclic Graph)의 위상 정렬 및 사이클 탐지를 제공합니다.

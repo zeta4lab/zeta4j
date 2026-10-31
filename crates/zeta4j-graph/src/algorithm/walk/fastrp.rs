@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! FastRP (Fast Random Projection) 임베딩 알고리즘
 //!
 //! Node2Vec보다 빠른 그래프 임베딩 생성 알고리즘입니다.

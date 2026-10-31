@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Home-directory and PID-lock utilities.
 
 use fs4::FileExt;

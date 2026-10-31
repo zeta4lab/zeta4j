@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Zeta4j CLI gRPC Protocol
 //!
 //! CLI용 gRPC 서비스 프로토콜 정의

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Graph Isomorphism 알고리즘
 //!
 //! 두 그래프가 구조적으로 동일한지 판별하는 알고리즘을 제공합니다.

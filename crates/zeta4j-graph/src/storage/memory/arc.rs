@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! ARC (Adaptive Replacement Cache) Replacer
 //!
 //! IBM에서 개발한 자가 적응형 캐시 교체 알고리즘입니다.

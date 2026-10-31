@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! PackStream encoder shared by server and clients.
 
 use bytes::{BufMut, BytesMut};

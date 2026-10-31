@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Persistent surfaces that participate in one atomic database commit.
 
 use thiserror::Error;

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 인덱스 메타데이터 캐시
 //!
 //! GraphEngine의 인덱스 조회를 캐싱하여 성능 향상

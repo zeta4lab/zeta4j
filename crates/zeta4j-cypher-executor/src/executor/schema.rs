@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스키마, 인덱스, 제약조건 관리 모듈
 //!
 //! 이 모듈은 다음 명령들을 처리합니다:

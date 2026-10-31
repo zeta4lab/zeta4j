@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 메모리 풀 관리 시스템 (설계 문서 준수)
 
 use std::sync::Arc;
