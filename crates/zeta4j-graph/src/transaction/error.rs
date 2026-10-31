@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # 트랜잭션 에러 타입
 //!
 //! 트랜잭션 처리 중 발생할 수 있는 모든 에러를 세분화하여 정의합니다.

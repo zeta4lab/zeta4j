@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! M7.4: Alert System
 //!
 //! 임계값 기반 알림, 웹훅, 알림 채널 관리

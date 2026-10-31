@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 엣지 스토리지 타입 정의
 
 use crate::core::{Edge, EdgeId, NodeId};

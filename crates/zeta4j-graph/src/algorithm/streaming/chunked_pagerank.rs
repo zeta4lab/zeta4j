@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 청크 기반 PageRank 알고리즘
 //!
 //! GraphView 트레이트를 사용하여 대규모 그래프에서 메모리 효율적인 PageRank 계산을 수행합니다.

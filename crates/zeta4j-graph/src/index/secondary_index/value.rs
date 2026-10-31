@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Index Value Types
 //!
 //! 인덱스 키로 사용할 수 있는 값 타입 및 정규화 함수

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 병렬 처리 설정
 
 /// 병렬 처리 설정

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Schema Manager
 //!
 //! 인덱스 및 제약조건 레지스트리 관리

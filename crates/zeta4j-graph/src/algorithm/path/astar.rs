@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! A* 최단 경로 알고리즘
 //!
 //! 휴리스틱 기반 최단 경로 알고리즘입니다.

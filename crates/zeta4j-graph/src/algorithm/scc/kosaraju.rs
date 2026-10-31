@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Kosaraju's Strongly Connected Components Algorithm
 //!
 //! 두 번의 DFS를 사용하여 방향 그래프의 모든 강연결요소(SCC)를 찾습니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 자동 인덱스 생성 모듈
 //!
 //! IndexAdvisor의 추천을 실제 인덱스로 자동 생성합니다.

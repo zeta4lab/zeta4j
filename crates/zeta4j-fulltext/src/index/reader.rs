@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 인덱스 Reader
 //!
 //! 인덱스에서 문서를 검색하고 조회하는 기능을 제공합니다.

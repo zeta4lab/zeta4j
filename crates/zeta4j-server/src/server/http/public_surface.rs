@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Public HTTP routes that skip authentication. Every other route requires an
 //! authenticated active principal.
 

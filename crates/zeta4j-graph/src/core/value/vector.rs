@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 벡터 타입 정의
 //!
 //! 고차원 벡터(임베딩) 관련 타입을 정의합니다.

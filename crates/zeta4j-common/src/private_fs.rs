@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Owner-only filesystem helpers for client-managed configuration and logs.
 
 use std::io::Write;

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 자동 튜닝 모듈
 //!
 //! 그래프 DB 성능을 자동으로 최적화하는 시스템을 제공합니다.

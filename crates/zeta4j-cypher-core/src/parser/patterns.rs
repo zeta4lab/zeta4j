@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Pattern parsing
 //!
 //! 노드, 엣지, 경로 패턴 파싱

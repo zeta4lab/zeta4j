@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 페이지 압축 모듈
 //!
 //! LZ4 압축을 사용하여 디스크 페이지를 압축/해제합니다.

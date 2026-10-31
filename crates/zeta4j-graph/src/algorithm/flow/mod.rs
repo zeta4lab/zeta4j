@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Maximum Flow 알고리즘 모듈
 //!
 //! 네트워크 최대 유량 및 최소 컷 알고리즘을 제공합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cypher 쿼리 AST (Abstract Syntax Tree) 모듈
 //!
 //! 이 모듈은 Cypher 쿼리를 표현하는 AST 구조체들을 정의합니다.

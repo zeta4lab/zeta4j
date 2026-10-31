@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 디스크 기반 노드 스토리지
 //!
 //! v1.9.1: Memory 백엔드 제거 - Disk 백엔드만 사용하여 동작 일관성 확보

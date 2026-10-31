@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! DFS 탐색 컨텍스트
 //!
 //! `clippy::too_many_arguments` 경고를 해결하기 위한 DFS 상태 컨텍스트 구조체입니다.

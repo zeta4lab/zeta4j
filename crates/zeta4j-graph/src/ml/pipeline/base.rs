@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Pipeline Base
 //!
 //! 파이프라인 공통 트레이트 및 구조체

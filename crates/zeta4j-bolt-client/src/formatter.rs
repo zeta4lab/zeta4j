@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Bolt shell output formatters.
 //!
 //! 다양한 출력 포맷 지원 (Table, CSV, JSON, Plain)

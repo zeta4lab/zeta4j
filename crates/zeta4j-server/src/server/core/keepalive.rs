@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Keep-Alive Management
 //!
 //! Phase 2 Step 1 M1.3: Keep-Alive 관리

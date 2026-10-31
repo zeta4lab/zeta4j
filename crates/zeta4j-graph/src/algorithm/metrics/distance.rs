@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 거리 기반 그래프 메트릭
 //!
 //! - Eccentricity: 노드에서 가장 먼 노드까지의 거리

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 대용량 파일 스트리밍 Import/Export
 //!
 //! 메모리 효율적인 청크 단위 처리로 대용량 파일을 처리합니다.

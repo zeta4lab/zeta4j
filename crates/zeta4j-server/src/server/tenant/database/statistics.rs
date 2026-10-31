@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 데이터베이스 통계 타입.
 
 use std::sync::atomic::{AtomicU32, AtomicU64, Ordering};

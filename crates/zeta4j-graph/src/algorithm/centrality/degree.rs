@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Degree Centrality 알고리즘
 //!
 //! 노드의 연결 정도를 측정합니다.

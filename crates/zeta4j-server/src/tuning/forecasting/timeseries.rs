@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 시계열 분석
 //!
 //! STL 분해, 자기상관, 주기 탐지, 이상치 탐지 등

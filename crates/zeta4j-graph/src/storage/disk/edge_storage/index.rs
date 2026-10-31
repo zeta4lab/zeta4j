@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 보조 인덱스 관리
 //!
 //! B+Tree는 u64 키만 지원하므로, 보조 인덱스는 메모리에서 관리하고

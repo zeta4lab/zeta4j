@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! CypherBackend 추상화 레이어
 //!
 //! Cypher 쿼리 실행에 필요한 그래프 저장소 확장 인터페이스를 정의합니다.

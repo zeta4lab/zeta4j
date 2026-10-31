@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Bootstrap Component Framework
 //!
 //! 서버 초기화를 위한 컴포넌트 기반 프레임워크

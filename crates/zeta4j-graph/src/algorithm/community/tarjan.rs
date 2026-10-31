@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Strongly Connected Components (SCC) - Tarjan 알고리즘
 //!
 //! 방향 그래프에서 강연결 컴포넌트를 찾습니다.

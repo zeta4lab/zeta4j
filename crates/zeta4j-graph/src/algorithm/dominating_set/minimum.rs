@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Minimum Dominating Set 알고리즘
 //!
 //! Branch and Bound 기반 최소 지배 집합 알고리즘

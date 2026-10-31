@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 인덱스 계층
 //!
 //! B+ 트리 등 스토리지 인덱스 구조를 제공합니다.

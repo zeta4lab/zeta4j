@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 그래프 알고리즘 결과 변환 모듈
 //!
 //! 그래프 알고리즘 실행 결과를 Value 타입으로 변환하는 독립 함수들.

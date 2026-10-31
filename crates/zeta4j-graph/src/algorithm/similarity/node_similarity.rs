@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Node Similarity 알고리즘
 //!
 //! 전체 노드에 대해 유사도를 계산하고 각 노드별 top-K 유사 노드를 찾습니다.

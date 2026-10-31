@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Zeta4j Server Crate
 //!
 //! Phase 2 모듈: Bolt/HTTP 서버, CLI, 드라이버, 보안, 모니터링

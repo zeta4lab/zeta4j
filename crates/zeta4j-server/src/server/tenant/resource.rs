@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Resource Isolation Module (M6.2)
 //!
 //! 리소스 격리 및 제한

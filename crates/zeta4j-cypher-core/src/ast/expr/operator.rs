@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 연산자 AST
 //!
 //! 비교, 논리, 산술 연산자

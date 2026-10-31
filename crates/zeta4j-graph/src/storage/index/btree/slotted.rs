@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! B+Tree Slotted Page 래퍼
 //!
 //! SlottedPage 위에 B+Tree 특화 기능을 제공합니다.

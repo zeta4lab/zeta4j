@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Bolt protocol connection for client-side use.
 //!
 //! Handles TCP connection, handshake, and message framing.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Concurrent B+ Tree (Crabbing Protocol 적용)
 //!
 //! Lock Coupling (Crabbing) 기법을 사용하여 동시성을 극대화합니다.

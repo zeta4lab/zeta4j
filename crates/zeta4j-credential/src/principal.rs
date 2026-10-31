@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Canonical authenticated principal identity.
 //!
 //! Authentication adapters resolve credentials into a [`Principal`]. Every

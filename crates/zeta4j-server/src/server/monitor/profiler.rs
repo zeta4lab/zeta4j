@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Server Profiler Module
 //!
 //! 서버 성능 프로파일링 및 병목 분석 도구

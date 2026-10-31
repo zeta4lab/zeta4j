@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 캐시 키 모듈
 
 use std::collections::hash_map::DefaultHasher;

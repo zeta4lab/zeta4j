@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GraphEngine 핵심 구조체 및 생성자
 
 use parking_lot::{Mutex, RwLock};

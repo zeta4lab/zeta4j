@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Runtime state format manifest and fail-closed startup validation.
 //!
 //! Package versions are deliberately not used for persistence compatibility.

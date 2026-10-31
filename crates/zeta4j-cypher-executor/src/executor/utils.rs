@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 유틸리티 함수 모듈
 //!
 //! 값 비교, 변환, 중복 제거 등 헬퍼 함수들

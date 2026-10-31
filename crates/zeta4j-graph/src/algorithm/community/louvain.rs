@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Louvain Community Detection 알고리즘
 //!
 //! 모듈러리티(Modularity) 최적화 기반의 커뮤니티 탐지 알고리즘입니다.

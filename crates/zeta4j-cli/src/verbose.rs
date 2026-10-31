@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Verbose 및 디버그 모드
 //!
 //! CLI 도구들의 상세 출력 및 디버그 기능을 제공합니다.

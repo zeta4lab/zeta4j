@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 제약조건 엔진
 //!
 //! 그래프 데이터의 무결성을 보장하는 제약조건을 정의하고 검증합니다.

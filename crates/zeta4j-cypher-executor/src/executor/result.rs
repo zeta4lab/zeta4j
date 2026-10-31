@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 쿼리 실행 결과 타입 정의.
 
 use super::QueryPlan;

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 그래프 저장소 계층
 //!
 //! 노드와 엣지를 저장하는 추상화 계층입니다.

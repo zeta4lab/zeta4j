@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cypher 절 실행 모듈
 //!
 //! WITH, UNWIND, CALL, RETURN 절 처리

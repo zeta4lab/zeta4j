@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Server Connection Pool
 //!
 //! Phase 2 Step 5 M5.1: 서버 연결 풀링

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Transaction management for the Cypher shell.
 //!
 //! Bolt 프로토콜 기반 트랜잭션 관리자

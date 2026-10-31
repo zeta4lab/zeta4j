@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 그래프 스토리지 시스템
 //!
 //! ## 계층 구조

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Authentication Routes
 //!
 //! HTTP API 인증 엔드포인트

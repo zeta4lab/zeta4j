@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Versioned one-time bootstrap credential envelope format.
 
 pub const BOOTSTRAP_ENVELOPE_VERSION: u8 = 1;

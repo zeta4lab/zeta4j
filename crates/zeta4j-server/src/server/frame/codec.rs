@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Frame Codec Module
 //!
 //! 프레임 인코딩/디코딩 코덱을 제공합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Persisted launch parameters for the daemon managed by `z4j server`.
 
 use std::fs;

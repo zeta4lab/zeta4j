@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! B+ Tree 삽입 연산
 //!
 //! 키-값 삽입 및 페이지 분할 기능을 제공합니다.

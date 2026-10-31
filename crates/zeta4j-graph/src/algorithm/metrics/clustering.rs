@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 클러스터링 계수 (Clustering Coefficient)
 //!
 //! 노드의 이웃들이 서로 얼마나 연결되어 있는지를 측정합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! K-Core Decomposition 알고리즘
 //!
 //! 그래프의 핵심 구조를 분석합니다.

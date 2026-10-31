@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Maximum Independent Set 알고리즘
 //!
 //! Vertex Cover와의 보완 관계를 활용한 최대 독립 집합 알고리즘

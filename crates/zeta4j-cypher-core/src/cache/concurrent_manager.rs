@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 동시성 쿼리 캐시 관리자
 //!
 //! 스레드-안전한 쿼리 파싱 및 실행 계획 캐시를 제공합니다.

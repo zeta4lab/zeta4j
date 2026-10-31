@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 통합 설정 에러
 //!
 //! 모든 설정 모듈에서 사용하는 공통 에러 타입입니다.

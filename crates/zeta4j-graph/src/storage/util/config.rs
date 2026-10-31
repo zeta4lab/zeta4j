@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스토리지 설정
 //!
 //! DiskNodeStorage 및 관련 컴포넌트의 설정을 관리합니다.

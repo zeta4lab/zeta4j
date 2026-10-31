@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Shell Completion 생성
 //!
 //! CLI 도구들의 shell completion 스크립트를 생성합니다.

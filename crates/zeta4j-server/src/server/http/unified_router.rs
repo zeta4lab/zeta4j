@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Unified Router (v1.8.1)
 //!
 //! 모든 HTTP 엔드포인트를 통합하는 라우터

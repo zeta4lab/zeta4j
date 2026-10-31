@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Modularity Optimization 알고리즘
 //!
 //! 모듈러리티(Modularity)를 직접 최적화하는 커뮤니티 탐지 알고리즘입니다.

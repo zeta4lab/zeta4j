@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cypher HTTP Handlers
 //!
 //! Neo4j HTTP API 호환 Cypher 엔드포인트 핸들러

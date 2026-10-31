@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Canonical password policy adapter.
 
 use zeta4j_credential::{CredentialSecret, PasswordHash, PasswordPolicy, PasswordVerification};

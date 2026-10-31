@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 함수 인덱스 (Function Index) 모듈
 //!
 //! 계산된 속성 값에 대한 인덱싱을 지원합니다.

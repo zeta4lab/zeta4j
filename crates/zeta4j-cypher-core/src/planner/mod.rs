@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 쿼리 실행 계획 생성기
 //!
 //! AST를 분석하여 실행 계획(QueryPlan)을 생성합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 통합 설정 로더
 //!
 //! TOML 파일 및 환경변수에서 설정을 로드하고, `${VAR}` 구문을 치환합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 통계 기반 워크로드 예측 시스템
 //!
 //! 시계열 데이터 수집, 패턴 인식, 워크로드 예측을 통해

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 // Node2Vec CUDA 커널
 //
 // GPU에서 편향된 랜덤 워크를 수행하기 위한 CUDA 커널입니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Steiner Tree 휴리스틱 알고리즘
 //!
 //! MST 기반 2-근사 알고리즘 및 개선 기법

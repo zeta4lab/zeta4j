@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Generation-based redb-backed Tantivy directory.
 //!
 //! Segment bytes are immutable blobs. A staged generation owns only path-to-blob

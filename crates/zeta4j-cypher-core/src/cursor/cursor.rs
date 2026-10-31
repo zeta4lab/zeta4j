@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 커서 및 커서 상태 정의 모듈
 
 use std::time::Instant;

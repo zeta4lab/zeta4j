@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # HTTP Server Module (M2.1 + M2.2 + M2.3 + M2.4)
 //!
 //! Phase 2 Step 2: HTTP REST API 서버

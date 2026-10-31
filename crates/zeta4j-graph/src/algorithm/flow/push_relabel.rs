@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Push-Relabel 알고리즘
 //!
 //! Preflow-Push 기반 최대 유량 알고리즘입니다.

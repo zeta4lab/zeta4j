@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 함수 인덱스 구현
 //!
 //! 단일 함수 표현식에 대한 인덱스를 관리합니다.

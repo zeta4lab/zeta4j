@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Bolt Query Executor implementation.
 //!
 //! Bridges the Bolt protocol AsyncQueryExecutor trait with the GraphEngine.

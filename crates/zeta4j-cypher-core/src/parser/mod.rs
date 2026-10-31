@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cypher Query Parser
 //!
 //! OpenCypher 쿼리 문자열을 파싱하여 AST(Abstract Syntax Tree)로 변환하는 파서 모듈입니다.

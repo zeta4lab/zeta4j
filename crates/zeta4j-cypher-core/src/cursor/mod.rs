@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 커서 및 페이지네이션 시스템
 //!
 //! 대용량 결과 집합을 효율적으로 처리하기 위한 커서 기반 페이지네이션 시스템을 제공합니다.

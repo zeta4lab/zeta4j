@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! External initial-administrator credential loading.
 
 use std::path::{Path, PathBuf};

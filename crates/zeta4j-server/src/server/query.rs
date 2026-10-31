@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Unified Query Interface (102 Phase 2, Phase 3)
 //!
 //! HTTP API와 Bolt API 모두에서 사용할 수 있는 통합 쿼리 인터페이스

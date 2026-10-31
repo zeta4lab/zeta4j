@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Zeta4j Server Binary
 //!
 //! Zeta4j graph database server entry point

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Page-level WAL 모듈
 //!
 //! ARIES 기반 Page-level WAL을 제공합니다.

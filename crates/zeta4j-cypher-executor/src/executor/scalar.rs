@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스칼라 함수 평가
 //!
 //! QueryExecutor의 스칼라 함수 평가 로직을 분리한 모듈입니다.

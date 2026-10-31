@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Closeness Centrality 알고리즘
 //!
 //! 노드가 그래프의 다른 모든 노드에 얼마나 가까운지를 측정합니다.

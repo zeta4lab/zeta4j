@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 제약조건 관련 공유 타입
 //!
 //! 여러 크레이트에서 공유하는 제약조건 관련 enum 타입들을 정의합니다.

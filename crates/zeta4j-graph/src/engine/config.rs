@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GraphEngine 설정 및 통계 타입 정의
 
 use crate::core::MemoryReporter;

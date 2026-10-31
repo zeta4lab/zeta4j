@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 표현식 평가 모듈
 //!
 //! Cypher 표현식의 평가를 담당합니다.

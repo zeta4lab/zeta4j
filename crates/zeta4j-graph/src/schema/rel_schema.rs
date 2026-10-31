@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 관계 타입 스키마
 //!
 //! 관계 타입에 대한 프로퍼티 스키마 정의

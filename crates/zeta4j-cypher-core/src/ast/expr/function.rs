@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스칼라 함수 AST
 //!
 //! 문자열, 수학, 리스트, 타입, 그래프 알고리즘 등 200+ 함수

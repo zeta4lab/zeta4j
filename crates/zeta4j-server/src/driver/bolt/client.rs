@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! High-level Bolt client for driver use.
 //!
 //! Provides a convenient API for executing queries and transactions.

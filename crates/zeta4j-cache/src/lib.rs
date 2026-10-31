@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Zeta4j Cache - Two-tier Caching System
 //!
 //! 2-tier 캐시 시스템을 제공합니다:

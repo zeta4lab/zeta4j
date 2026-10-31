@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! R-Tree 노드 정의
 //!
 //! RTreeNode와 RTreeEntry를 정의합니다.

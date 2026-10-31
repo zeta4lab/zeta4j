@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Bolt protocol response messages.
 //!
 //! Response messages are sent from the server to the client.

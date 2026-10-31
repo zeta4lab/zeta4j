@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 기본 Feedback Set 연산
 //!
 //! Feedback Vertex Set (FVS)과 Feedback Arc Set (FAS) 검증 및 Greedy 알고리즘

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Zeta4j Cypher Executor
 //!
 //! GraphEngine 기반 Cypher 쿼리 실행기

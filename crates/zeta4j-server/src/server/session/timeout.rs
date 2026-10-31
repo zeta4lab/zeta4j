@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Session Timeout Management
 //!
 //! Phase 2 Step 5 M5.4: 타임아웃 관리

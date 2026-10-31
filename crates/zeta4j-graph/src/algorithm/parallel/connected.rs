@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 병렬 연결 컴포넌트 알고리즘
 //!
 //! Rayon을 사용하여 연결 컴포넌트 탐지를 병렬화합니다.

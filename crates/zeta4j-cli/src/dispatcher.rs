@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 공통 디스패처 유틸리티
 //!
 //! CLI 명령 디스패처를 위한 공통 트레이트와 헬퍼

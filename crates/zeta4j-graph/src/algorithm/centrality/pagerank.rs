@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! PageRank 알고리즘
 //!
 //! Google의 PageRank 알고리즘을 그래프에 적용하여 노드의 중요도를 계산합니다.

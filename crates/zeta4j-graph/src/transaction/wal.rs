@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! WAL 레코드 타입 정의
 //!
 //! Page-level ARIES WAL 레코드와 관련 타입을 정의합니다.

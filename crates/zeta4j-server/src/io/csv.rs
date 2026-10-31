@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! CSV Import/Export
 //!
 //! 그래프 데이터의 CSV 형식 내보내기/가져오기

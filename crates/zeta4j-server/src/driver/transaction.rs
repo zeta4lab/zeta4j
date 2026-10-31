@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! M9.3: Transaction API
 //!
 //! 트랜잭션 관리

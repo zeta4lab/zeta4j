@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Common Neighbors 알고리즘
 //!
 //! 두 노드의 공통 이웃 수를 계산합니다.

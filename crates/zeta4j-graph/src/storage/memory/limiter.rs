@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Database-scoped memory admission ledger.
 //!
 //! The limiter is deliberately reservation based. A successful reservation owns

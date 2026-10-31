@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스키마 정의 시스템
 //!
 //! 그래프 데이터의 구조를 정의하고 검증하는 모듈입니다.

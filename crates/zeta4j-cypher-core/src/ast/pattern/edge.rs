@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 엣지(관계) 패턴 AST
 
 use super::super::expr::PropertyPattern;

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Logistic Regression
 //!
 //! SGD 기반 로지스틱 회귀 분류기

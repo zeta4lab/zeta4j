@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! gRPC Client Configuration
 //!
 //! gRPC 연결 설정 및 에러 타입

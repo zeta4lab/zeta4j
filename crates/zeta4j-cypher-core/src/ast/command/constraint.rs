@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 제약조건 관리 명령 AST
 //!
 //! CREATE/DROP CONSTRAINT 등

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 튜닝 히스토리 분석 모듈
 //!
 //! 장기 트렌드 분석과 주기적 패턴 감지를 제공합니다.

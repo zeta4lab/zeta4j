@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 최소 컷 (Min-Cut) 알고리즘
 //!
 //! 최대 유량 = 최소 컷 (Max-Flow Min-Cut Theorem)을 활용하여

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cardinality Estimation and Cost Calculation
 //!
 //! 실행 계획의 카디널리티 추정 및 비용 계산

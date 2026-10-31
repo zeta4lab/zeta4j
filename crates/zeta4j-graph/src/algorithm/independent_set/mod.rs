@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Independent Set 알고리즘
 //!
 //! 독립 집합: 서로 인접하지 않은 정점들의 집합

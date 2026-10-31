@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 기본 Vertex Cover 연산
 //!
 //! 정점 커버 검증 및 Greedy 2-근사 알고리즘

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Page-level ARIES Recovery Manager
 //!
 //! ARIES 알고리즘 기반의 크래시 복구를 수행합니다.

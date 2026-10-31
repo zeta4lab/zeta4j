@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Zeta4j CLI Common Library
 //!
 //! 모든 에디션에서 공유하는 CLI 유틸리티

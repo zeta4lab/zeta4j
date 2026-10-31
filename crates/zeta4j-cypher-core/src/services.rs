@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 외부 서비스 트레이트 정의
 //!
 //! zeta4j-cypher가 독립적으로 컴파일될 수 있도록 외부 서비스의 트레이트를 정의합니다.

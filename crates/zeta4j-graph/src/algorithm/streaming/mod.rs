@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 대규모 그래프 스트리밍 알고리즘
 //!
 //! 메모리 효율적인 청크 기반 그래프 알고리즘을 제공합니다.

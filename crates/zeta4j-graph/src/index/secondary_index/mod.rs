@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Secondary Index - 레이블+프로퍼티 기반 보조 인덱스
 //!
 //! Neo4j 스타일의 프로퍼티 인덱스를 제공합니다.

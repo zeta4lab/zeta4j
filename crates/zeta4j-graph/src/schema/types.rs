@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스키마 타입 정의
 //!
 //! 프로퍼티 데이터 타입 및 프로퍼티 정의

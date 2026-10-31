@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Canonical property graph repository owned by one logical database.
 //!
 //! The repository never starts or commits a redb transaction. A graph write set

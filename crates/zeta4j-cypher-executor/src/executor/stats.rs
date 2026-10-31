@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 쿼리 실행 통계
 //!
 //! EXPLAIN ANALYZE에서 사용되는 실행 통계와 변경 통계 구조체를 정의합니다.

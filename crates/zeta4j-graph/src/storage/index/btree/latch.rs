@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! B+ Tree 페이지 래치 (Crabbing Protocol)
 //!
 //! Lock Coupling (Crabbing)을 위한 페이지 수준 래치 관리자입니다.

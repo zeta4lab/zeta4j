@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 배치 트랜잭션 API
 //!
 //! 대량 쓰기 작업을 단일 트랜잭션으로 배치 처리하여

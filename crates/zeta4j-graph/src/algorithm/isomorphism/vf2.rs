@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! VF2 알고리즘
 //!
 //! 그래프 동형 검사를 위한 VF2 상태 공간 탐색 알고리즘

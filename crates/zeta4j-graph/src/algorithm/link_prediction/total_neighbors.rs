@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Total Neighbors 알고리즘
 //!
 //! 두 노드의 이웃 합집합 크기를 계산합니다.

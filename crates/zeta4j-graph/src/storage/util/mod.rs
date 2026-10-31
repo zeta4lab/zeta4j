@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스토리지 유틸리티
 //!
 //! 압축, 설정 등 스토리지 전반에서 사용되는 유틸리티입니다.

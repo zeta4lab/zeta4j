@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 패턴 관련 AST
 //!
 //! 노드 패턴, 엣지 패턴, 경로 패턴

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 3D R*-Tree 구현
 //!
 //! 3D 공간 데이터를 위한 R*-Tree 알고리즘 구현입니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 벡터 인덱스 설정 모듈
 //!
 //! 벡터 인덱스(HNSW)의 파라미터 및 검색 설정을 관리합니다.

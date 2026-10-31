@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! PackStream type markers shared by server and clients.
 //!
 //! PackStream is a binary serialization format used by the Bolt protocol.

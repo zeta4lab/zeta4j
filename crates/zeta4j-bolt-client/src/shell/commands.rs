@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! M8.3: Meta Commands
 //!
 //! 셸 메타 명령 (:help, :sysinfo, :schema 등)

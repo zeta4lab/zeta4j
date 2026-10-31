@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 언어 감지 및 라우팅
 //!
 //! 텍스트의 언어를 자동으로 감지하고 적절한 토크나이저로 라우팅합니다.

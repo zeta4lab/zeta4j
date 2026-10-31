@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! gRPC Authentication Interceptor
 //!
 //! HTTP와 동일한 canonical credential 인증을 gRPC에 적용합니다.

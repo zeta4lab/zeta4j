@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # zeta4j-fulltext
 //!
 //! Tantivy 기반 전문 검색 엔진으로, 한국어를 포함한 다국어 지원을 제공합니다.

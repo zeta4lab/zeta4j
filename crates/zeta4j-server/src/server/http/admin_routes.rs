@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Admin Routes (M2.3)
 //!
 //! 관리 엔드포인트 라우트 정의

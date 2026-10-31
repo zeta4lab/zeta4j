@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Hungarian Algorithm (Kuhn-Munkres) 가중치 이분 매칭
 //!
 //! 가중치가 있는 이분 그래프에서 최소/최대 비용 매칭을 찾습니다.

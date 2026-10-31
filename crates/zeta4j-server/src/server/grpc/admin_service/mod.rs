@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Admin gRPC Service Implementation
 //!
 //! admin.proto 기반의 gRPC 서비스 구현

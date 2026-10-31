@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cypher 문장 분할 유틸리티
 //!
 //! 세미콜론으로 구분된 여러 Cypher 문장을 분할합니다.

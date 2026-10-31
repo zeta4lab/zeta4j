@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Lock 헬퍼 함수
 //!
 //! Mutex 및 RwLock 작업을 위한 에러 처리 헬퍼입니다.

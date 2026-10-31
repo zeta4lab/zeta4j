@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Canonical identity of data indexed by derived semantic search surfaces.
 
 use serde::{Deserialize, Serialize};

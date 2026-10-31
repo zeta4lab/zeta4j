@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 지수 평활법 (Exponential Smoothing)
 //!
 //! 단순, 이중, 삼중 지수 평활법을 구현합니다.

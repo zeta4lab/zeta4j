@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 쿼리 실행 계획
 //!
 //! 전체 쿼리의 실행 계획 트리

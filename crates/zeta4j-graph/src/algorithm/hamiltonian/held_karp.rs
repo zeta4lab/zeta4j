@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Held-Karp 동적 프로그래밍 알고리즘
 //!
 //! 비트마스크 DP를 사용하여 최소 비용 Hamiltonian Path/Circuit을 찾습니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 저장소 초기화 명령
 //!
 //! `z4j server init` storage initialization.

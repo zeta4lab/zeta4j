@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Server port management and conflict resolution.
 //!
 //! 이 모듈은 서버 시작 시 포트 충돌을 감지하고 해결합니다.

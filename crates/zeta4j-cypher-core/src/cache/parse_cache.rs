@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 파싱 캐시 모듈
 
 use super::entry::CacheEntry;

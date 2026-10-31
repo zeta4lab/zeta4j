@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 라우팅 정책
 //!
 //! 서버 선택 전략을 정의합니다.

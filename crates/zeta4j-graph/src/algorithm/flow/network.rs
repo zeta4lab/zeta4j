@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 유량 네트워크 자료구조
 //!
 //! Maximum Flow 알고리즘을 위한 유량 네트워크 구현입니다.

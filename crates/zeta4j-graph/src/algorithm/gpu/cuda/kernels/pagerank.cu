@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 // PageRank CUDA 커널
 //
 // GPU에서 PageRank 알고리즘을 실행하기 위한 CUDA 커널입니다.

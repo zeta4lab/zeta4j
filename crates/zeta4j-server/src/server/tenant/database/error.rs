@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 데이터베이스 관리 에러 타입.
 
 use thiserror::Error;

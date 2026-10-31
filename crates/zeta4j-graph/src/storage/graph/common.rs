@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 그래프 스토리지 공통 타입
 //!
 //! NodeStorage와 EdgeStorage에서 공유하는 통계 타입을 정의합니다.

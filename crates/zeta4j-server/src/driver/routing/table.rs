@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 라우팅 테이블
 //!
 //! 클러스터의 서버 역할별 목록을 관리합니다.

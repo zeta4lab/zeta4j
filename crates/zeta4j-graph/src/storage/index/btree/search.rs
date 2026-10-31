@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! B+ Tree 검색 연산
 //!
 //! 키 조회 및 범위 스캔 기능을 제공합니다.

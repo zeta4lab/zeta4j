@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GPU 백엔드 추상화
 //!
 //! 다양한 GPU 백엔드(CUDA, Metal)를 위한 공통 인터페이스를 정의합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Clique Detection 알고리즘
 //!
 //! 클리크: 모든 노드 쌍이 서로 연결된 완전 부분 그래프

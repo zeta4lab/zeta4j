@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Cypher HTTP API Types
 //!
 //! Bolt HTTP API 호환 Cypher 요청/응답 타입

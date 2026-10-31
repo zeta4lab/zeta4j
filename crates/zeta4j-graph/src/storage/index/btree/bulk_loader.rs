@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! B+ Tree Bulk Loading
 //!
 //! 대량의 정렬된 데이터를 효율적으로 B+Tree에 로드합니다.

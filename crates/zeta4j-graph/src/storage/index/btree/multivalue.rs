@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Multi-value B+Tree
 //!
 //! 하나의 키에 여러 값을 저장할 수 있는 B+Tree입니다.

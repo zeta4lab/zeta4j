@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 함수 인덱스 매니저
 //!
 //! 여러 함수 인덱스를 통합 관리합니다.

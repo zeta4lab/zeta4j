@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Strongly Connected Components (SCC) 알고리즘
 //!
 //! 방향 그래프에서 강연결요소를 찾는 알고리즘들을 제공합니다.

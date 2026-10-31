@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 그래프 알고리즘 함수 위임 모듈
 //!
 //! 그래프 함수들은 그래프 엔진(GraphEngine) 접근이 필요하므로

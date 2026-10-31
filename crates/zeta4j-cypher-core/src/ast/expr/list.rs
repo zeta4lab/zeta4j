@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 리스트/벡터 관련 표현식 AST
 //!
 //! 리스트 컴프리헨션, EXISTS, 벡터 표현식

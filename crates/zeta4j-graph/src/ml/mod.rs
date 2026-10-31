@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! ML Pipeline 모듈
 //!
 //! Neo4j GDS ML Pipeline과 호환되는 머신러닝 파이프라인 구현

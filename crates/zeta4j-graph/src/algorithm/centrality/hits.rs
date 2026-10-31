@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! HITS (Hyperlink-Induced Topic Search) 알고리즘
 //!
 //! Kleinberg(1999)가 제안한 알고리즘으로, 각 노드에 두 가지 점수를 부여합니다:

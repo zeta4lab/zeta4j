@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 use crate::storage::disk::page::PageId;
 
 /// 레코드 식별자 (PageId + SlotId)

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # zeta4j-common
 //!
 //! 모든 zeta4j 크레이트에서 공유하는 공통 타입과 트레이트를 정의합니다.

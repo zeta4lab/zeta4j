@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Zeta4j Core 설정 모듈
 //!
 //! 그래프 엔진 코어 설정: transaction, wal, compaction, mvcc, query, index

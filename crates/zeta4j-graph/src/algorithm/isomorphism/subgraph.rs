@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 서브그래프 동형 (Subgraph Isomorphism)
 //!
 //! VF2 기반 서브그래프 매칭 알고리즘

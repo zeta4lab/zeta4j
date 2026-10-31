@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! TX-aware Pin Tracking
 //!
 //! 트랜잭션별 페이지 pin을 추적하여 장기 실행 트랜잭션이

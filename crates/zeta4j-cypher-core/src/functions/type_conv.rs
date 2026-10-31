@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 타입 변환 함수 구현
 //!
 //! 순수 타입 변환 함수만 포함합니다.

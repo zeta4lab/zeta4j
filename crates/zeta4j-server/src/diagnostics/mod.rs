@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 진단 및 문제해결 도구 모듈
 //!
 //! 그래프 DB 운영 시 발생하는 문제를 탐지하고 해결하는 도구를 제공합니다.

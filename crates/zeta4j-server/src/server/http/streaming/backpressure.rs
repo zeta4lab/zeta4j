@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Backpressure Control (M2.4)
 //!
 //! 스트리밍 백프레셔 및 흐름 제어

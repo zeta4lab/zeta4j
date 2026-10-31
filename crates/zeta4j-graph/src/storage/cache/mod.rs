@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 버퍼 캐시 계층
 //!
 //! 디스크와 메모리 사이의 페이지 캐싱을 담당합니다.

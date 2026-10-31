@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 메모리 관련 공통 트레이트
 //!
 //! 메모리 사용량을 보고하는 타입들을 위한 공통 인터페이스입니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 그래프 메트릭 (Graph Metrics)
 //!
 //! 그래프 전체의 구조적 특성을 분석하는 메트릭들을 제공합니다.

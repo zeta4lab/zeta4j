@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스냅샷 및 체크포인트
 
 use crate::error::{GraphError, Result};

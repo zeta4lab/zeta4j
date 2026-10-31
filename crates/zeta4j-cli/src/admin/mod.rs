@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Zeta4j Admin Tool Common Module
 //!
 //! 모든 에디션에서 공유하는 관리 도구 로직 (gRPC 기반)

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 예측 모델
 //!
 //! 시계열 예측을 위한 다양한 통계 모델을 제공합니다.

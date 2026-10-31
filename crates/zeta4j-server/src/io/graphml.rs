@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GraphML Import/Export
 //!
 //! v0.51.0: GraphML 표준 그래프 교환 포맷 지원

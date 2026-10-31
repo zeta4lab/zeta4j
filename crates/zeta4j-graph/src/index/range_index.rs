@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 범위 검색을 위한 B+Tree 기반 인덱스
 //!
 //! 정수 및 실수 값에 대한 효율적인 범위 검색을 지원합니다.

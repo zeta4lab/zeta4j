@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Database Manager (M2.3)
 //!
 //! 다중 데이터베이스 관리

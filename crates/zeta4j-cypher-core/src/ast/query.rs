@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 쿼리 AST
 //!
 //! Cypher 쿼리의 최상위 구조체들

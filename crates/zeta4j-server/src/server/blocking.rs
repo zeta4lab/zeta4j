@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Blocking Pool Manager
 //!
 //! CPU 바운드 작업을 위한 스레드 풀 관리자.

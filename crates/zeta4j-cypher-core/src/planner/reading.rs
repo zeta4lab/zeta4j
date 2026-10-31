@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Reading Clause Planning
 //!
 //! Reading clause 및 패턴 매칭 실행 계획 생성

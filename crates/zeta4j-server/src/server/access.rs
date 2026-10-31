@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Authentication guard at server execution boundaries.
 //!
 //! Every active authenticated principal may use every protected surface. The

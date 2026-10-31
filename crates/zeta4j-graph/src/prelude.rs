@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Zeta4j Core Prelude
 //!
 //! 자주 사용되는 타입들을 한 번에 import할 수 있습니다.

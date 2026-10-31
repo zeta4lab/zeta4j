@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Hierholzer 알고리즘 - Eulerian Path/Circuit 찾기
 //!
 //! 모든 엣지를 정확히 한 번씩 방문하는 경로를 찾습니다.

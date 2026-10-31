@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 배치 로딩 모듈 (Batch Loading)
 //!
 //! v0.53.0: 대용량 데이터 배치 처리 지원

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 함수 표현식 정의
 //!
 //! 인덱싱 가능한 함수 표현식을 정의합니다.

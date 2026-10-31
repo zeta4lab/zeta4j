@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Property Index
 //!
 //! 단일 프로퍼티 인덱스 구현

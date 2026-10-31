@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Secondary Index Manager
 //!
 //! 여러 프로퍼티 인덱스를 관리 (단일 및 복합 인덱스 지원)

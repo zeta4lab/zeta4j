@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # LSN (Log Sequence Number) 모듈
 //!
 //! Page-level WAL을 위한 LSN 인프라를 제공합니다.

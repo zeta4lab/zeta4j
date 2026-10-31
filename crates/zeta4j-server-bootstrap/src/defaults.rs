@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Default values for Zeta4j server configuration.
 //!
 //! 이 모듈은 `zeta4j-common::defaults`를 re-export합니다.

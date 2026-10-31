@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 자동 최적화 액션 엔진
 //!
 //! 예측 결과와 패턴을 기반으로 최적화 액션을 생성하고 실행합니다.

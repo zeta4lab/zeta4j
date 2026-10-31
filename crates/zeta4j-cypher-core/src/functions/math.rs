@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 수학 스칼라 함수 구현
 //!
 //! abs, ceil, floor, round, sqrt, sin, cos 등

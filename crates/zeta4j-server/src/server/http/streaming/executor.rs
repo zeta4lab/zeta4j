@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Streaming Executor (M2.4)
 //!
 //! 스트리밍 쿼리 실행기 - HTTP 스트리밍 API와 쿼리 실행기 통합

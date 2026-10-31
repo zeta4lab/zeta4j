@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Edition-neutral Bolt protocol client.
 //!
 //! Neo4j Bolt 프로토콜을 사용한 원격 데이터베이스 연결 클라이언트입니다.

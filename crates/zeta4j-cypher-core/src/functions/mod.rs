@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스칼라 함수 구현 모듈
 //!
 //! `ScalarFunction` enum에 대한 `evaluate()` 메서드를 제공합니다.

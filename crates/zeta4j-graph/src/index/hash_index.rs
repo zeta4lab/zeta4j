@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 해시 기반 고성능 인덱스
 
 use parking_lot::RwLock;

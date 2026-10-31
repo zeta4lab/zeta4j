@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 필터 푸시다운 최적화
 //!
 //! WHERE 절의 조건을 가능한 일찍 적용하여 Expand 전에 불필요한 노드를 걸러냅니다.

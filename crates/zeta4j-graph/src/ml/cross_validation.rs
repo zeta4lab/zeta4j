@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! K-Fold Cross Validation
 //!
 //! 교차 검증을 통한 모델 평가

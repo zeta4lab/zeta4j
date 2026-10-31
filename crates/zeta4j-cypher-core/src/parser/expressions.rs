@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Expression parsing
 //!
 //! 표현식 파싱: 리터럴, 변수, 속성 접근, 함수 호출, 비교, 논리 연산 등

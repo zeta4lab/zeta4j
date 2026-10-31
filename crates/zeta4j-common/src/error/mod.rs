@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 통합 에러 타입
 //!
 //! 모든 zeta4j 크레이트에서 사용할 수 있는 통합 에러 타입입니다.

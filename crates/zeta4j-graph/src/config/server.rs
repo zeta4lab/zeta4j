@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 서버 설정 모듈
 //!
 //! HTTP, Bolt, gRPC, transport와 인증 설정을 통합 관리합니다.

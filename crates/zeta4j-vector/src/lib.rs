@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Zeta4j Vector
 //!
 //! canonical vector record에서 파생되는 immutable HNSW generation과 검색 모듈입니다.

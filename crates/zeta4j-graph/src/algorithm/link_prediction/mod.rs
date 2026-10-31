@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 링크 예측 알고리즘
 //!
 //! 그래프에서 두 노드 사이에 링크가 생성될 가능성을 예측합니다.

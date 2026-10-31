@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Streaming Types (M2.4)
 //!
 //! 스트리밍 응답을 위한 타입 정의

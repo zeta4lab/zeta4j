@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Session Management Module
 //!
 //! Phase 2 Step 5: 확장 가능한 세션 및 연결 관리

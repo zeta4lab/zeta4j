@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 분류 평가 지표
 //!
 //! Accuracy, Precision, Recall, F1, AUC-ROC 등 평가 지표 구현

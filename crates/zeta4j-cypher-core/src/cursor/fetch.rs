@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 가져오기 결과 정의 모듈
 
 use zeta4j_graph::core::Value;

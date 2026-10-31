@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Canonical vector records and staged HNSW generations for one logical database.
 
 use std::collections::{HashMap, HashSet};

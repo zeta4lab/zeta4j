@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Bootstrap module for Zeta4j server initialization
 //!
 //! 모든 에디션에서 공유하는 서버 초기화 유틸리티

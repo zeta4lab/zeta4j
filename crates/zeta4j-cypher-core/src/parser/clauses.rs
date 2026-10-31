@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Clause parsing
 //!
 //! MATCH, CREATE, DELETE, SET, MERGE, RETURN, WITH, UNWIND, CALL 절 파싱

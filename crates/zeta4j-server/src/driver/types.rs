@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Driver Types
 //!
 //! 드라이버에서 사용하는 타입 정의

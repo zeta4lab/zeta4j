@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 디스크 페이지 구조
 //!
 //! Page-level WAL을 위한 LSN 추적을 지원합니다.

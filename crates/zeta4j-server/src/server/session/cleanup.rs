@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Session Cleanup Task
 //!
 //! Phase 5: 세션 타임아웃 시 자동 트랜잭션 롤백

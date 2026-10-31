@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Resource Allocation Index 알고리즘
 //!
 //! 공통 이웃의 degree 역수로 가중치를 부여합니다.

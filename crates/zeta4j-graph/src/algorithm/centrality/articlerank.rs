@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! ArticleRank 알고리즘
 //!
 //! PageRank의 변형으로, teleportation 확률 계산에 average degree를 사용합니다.

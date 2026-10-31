@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스트리밍 알고리즘 설정
 //!
 //! 청크 크기, 진행 콜백, 메모리 제한 등 공통 설정

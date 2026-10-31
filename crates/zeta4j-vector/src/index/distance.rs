@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 벡터 거리 함수 모듈
 //!
 //! HNSW 인덱스에서 사용하는 거리 계산 함수들을 제공합니다.

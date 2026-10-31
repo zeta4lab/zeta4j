@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 핵심 그래프 데이터 구조
 
 use parking_lot::RwLock;

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Basic Random Walk 알고리즘
 //!
 //! 그래프에서 무작위로 이웃 노드를 선택하며 이동하는 알고리즘입니다.

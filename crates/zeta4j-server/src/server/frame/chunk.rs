@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Chunked Transfer Module
 //!
 //! 대용량 데이터의 청크 단위 전송을 지원합니다.

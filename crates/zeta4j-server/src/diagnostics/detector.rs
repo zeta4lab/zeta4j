@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 문제 탐지기 모듈
 
 use super::monitor::SystemStatus;

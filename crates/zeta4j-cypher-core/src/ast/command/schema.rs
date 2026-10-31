@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 스키마 관리 명령 AST
 //!
 //! CREATE/DROP NODE LABEL, CREATE/DROP RELATIONSHIP TYPE 등

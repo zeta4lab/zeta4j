@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Long Polling (M2.4)
 //!
 //! 대용량 쿼리 결과를 위한 Long Polling 지원

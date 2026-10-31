@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 명령 디스패처
 //!
 //! CtlCommand를 Context 기반으로 실행합니다.

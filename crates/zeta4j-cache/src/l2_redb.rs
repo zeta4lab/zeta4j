@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! L2 캐시 (redb 기반 디스크 영속 저장소)
 
 use crate::error::{Result, ZetaError};

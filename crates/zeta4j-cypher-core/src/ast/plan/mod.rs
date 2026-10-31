@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 실행 계획 AST 모듈
 //!
 //! 쿼리 실행 계획 관련 구조체들을 정의합니다.

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! GraphEngine 트랜잭션 관리 메서드
 //!
 //! ## MVCC 통합 (v1.63.0)

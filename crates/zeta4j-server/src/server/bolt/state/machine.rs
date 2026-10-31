@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Bolt connection state machine.
 //!
 //! Implements the Bolt protocol state machine with proper

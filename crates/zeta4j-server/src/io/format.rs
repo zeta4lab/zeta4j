@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Value 타입 변환 유틸리티
 //!
 //! Value ↔ JSON 변환 기능 제공

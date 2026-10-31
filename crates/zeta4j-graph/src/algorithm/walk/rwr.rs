@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Random Walk with Restart (RWR) 알고리즘
 //!
 //! Personalized PageRank의 기반이 되는 알고리즘입니다.

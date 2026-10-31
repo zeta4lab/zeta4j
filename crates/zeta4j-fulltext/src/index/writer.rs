@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 인덱스 Writer
 //!
 //! 문서를 인덱스에 추가, 삭제, 업데이트하는 기능을 제공합니다.

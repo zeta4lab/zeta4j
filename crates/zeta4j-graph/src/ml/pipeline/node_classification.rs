@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Node Classification Pipeline
 //!
 //! 노드 분류를 위한 ML 파이프라인

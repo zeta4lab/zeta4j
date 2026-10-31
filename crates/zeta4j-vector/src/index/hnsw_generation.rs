@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Deterministic, storage-neutral HNSW generation construction and search.
 //!
 //! A generation is built completely in memory, then persisted by the logical

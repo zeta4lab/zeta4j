@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 인덱스 조건
 //!
 //! 인덱스 스캔에 사용되는 조건들

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Record - 쿼리 결과 레코드
 //!
 //! 쿼리 결과의 단일 레코드

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Biconnected Components (이중 연결 성분) 알고리즘
 //!
 //! 단절점 없이 연결된 최대 부분 그래프를 찾습니다.

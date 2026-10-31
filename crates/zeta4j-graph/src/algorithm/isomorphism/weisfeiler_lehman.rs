@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Weisfeiler-Lehman 알고리즘
 //!
 //! 그래프의 canonical hash를 계산하여 빠른 동형 검사 수행

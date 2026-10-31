@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! System Database Module
 //!
 //! 시스템 메타데이터 영속화를 위한 모듈

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Bron-Kerbosch 알고리즘 - 모든 극대 클리크 찾기
 //!
 //! 피벗 최적화와 퇴화 순서(degeneracy ordering)를 사용한 효율적인 구현

@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 통합 설정 모듈
 //!
 //! 모든 설정 타입, 로더, 에러를 중앙 집중화합니다.

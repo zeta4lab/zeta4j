@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! 페이지네이션 설정 모듈
 
 /// 페이지네이션 설정

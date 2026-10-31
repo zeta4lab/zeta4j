@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! # Zeta4j TCP Server Module
 //!
 //! Phase 2 Step 1: 고성능 비동기 TCP 서버

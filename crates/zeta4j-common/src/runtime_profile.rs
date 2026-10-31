@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 //! Runtime security profile shared by every product entrypoint.
 
 use std::fmt;

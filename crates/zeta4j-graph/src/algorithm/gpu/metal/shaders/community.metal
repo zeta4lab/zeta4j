@@ -1,3 +1,6 @@
+// Copyright 2026 Kangyou Choi
+// SPDX-License-Identifier: Apache-2.0
+
 // Community Detection Metal Compute Shader
 //
 // Apple Silicon GPU에서 커뮤니티 탐지 알고리즘을 실행하기 위한 Metal 셰이더입니다.
